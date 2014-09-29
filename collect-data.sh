@@ -20,7 +20,6 @@ lsb_release -a >> $FNM
 
 echo "Inserting/removing the kernel module"
 sudo insmod ./vmlaunch_simple.ko
-sleep 3 # why??
 sudo rmmod vmlaunch_simple
 
 echo ""
