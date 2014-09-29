@@ -1,0 +1,62 @@
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 42
+model name	: Intel(R) Core(TM) i3-2310M CPU @ 2.10GHz
+stepping	: 7
+microcode	: 0x18
+cpu MHz		: 800.000
+cache size	: 3072 KB
+physical id	: 0
+siblings	: 4
+core id		: 0
+cpu cores	: 2
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts nopl xtopology nonstop_tsc aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer xsave avx lahf_lm arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid
+bogomips	: 4186.45
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+LSB Version:	core-2.0-amd64:core-2.0-noarch:core-3.0-amd64:core-3.0-noarch:core-3.1-amd64:core-3.1-noarch:core-3.2-amd64:core-3.2-noarch:core-4.0-amd64:core-4.0-noarch
+Distributor ID:	Ubuntu
+Description:	Ubuntu 12.04.5 LTS
+Release:	12.04
+Codename:	precise
+[ 3258.214450]  In vmxon
+[ 3258.215559]  VMX supported CPU.
+[ 3258.216483] MSR 0x3A:Lock bit is on.VMXON bit is on.OK
+[ 3258.216484]  turned on cr4.vmxe
+[ 3258.217378]  Going to do max 32000 iterations VMLAUNCH/VMEXIT
+[ 3258.218231]  1 iterations vmlaunch/vmexit took 1216 cycles
+[ 3258.219066]  2 iterations vmlaunch/vmexit took 528 cycles
+[ 3258.219901]  4 iterations vmlaunch/vmexit took 868 cycles
+[ 3258.220740]  8 iterations vmlaunch/vmexit took 1620 cycles
+[ 3258.221568]  16 iterations vmlaunch/vmexit took 3044 cycles
+[ 3258.222400]  32 iterations vmlaunch/vmexit took 5888 cycles
+[ 3258.223235]  64 iterations vmlaunch/vmexit took 11672 cycles
+[ 3258.224057]  128 iterations vmlaunch/vmexit took 23124 cycles
+[ 3258.224902]  256 iterations vmlaunch/vmexit took 46092 cycles
+[ 3258.225759]  512 iterations vmlaunch/vmexit took 91992 cycles
+[ 3258.226653]  1024 iterations vmlaunch/vmexit took 183816 cycles
+[ 3258.227649]  2048 iterations vmlaunch/vmexit took 367452 cycles
+[ 3258.228823]  4096 iterations vmlaunch/vmexit took 738728 cycles
+[ 3258.230350]  8192 iterations vmlaunch/vmexit took 1469272 cycles
+[ 3258.232576]  16384 iterations vmlaunch/vmexit took 2938372 cycles
+[ 3258.233403]  Finished vmxon
+[ 3258.234234]  Machine in vmxon: Attempting vmxoff
+[ 3258.235080]  vmxoff complete
+[ 3258.235927]  turned off cr4.vmxe
+[ 3258.236779]  freeing allocated vmcs region!
+[ 3258.237639]  freeing allocated io bitmapA region!
+[ 3258.238505]  freeing allocated io bitmapB region!
+[ 3258.239370]  freeing allocated msr bitmap region!
+[ 3258.240239]  freeing allocated virtual apic page region!
+[ 3258.241117]  freeing allocated vmxon region!
+[ 3258.241991]  Enable Interrupts

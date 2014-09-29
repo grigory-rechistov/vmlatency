@@ -1,0 +1,15 @@
+[ 3258.218231]  1 iterations vmlaunch/vmexit took 1216 cycles
+[ 3258.219066]  2 iterations vmlaunch/vmexit took 528 cycles
+[ 3258.219901]  4 iterations vmlaunch/vmexit took 868 cycles
+[ 3258.220740]  8 iterations vmlaunch/vmexit took 1620 cycles
+[ 3258.221568]  16 iterations vmlaunch/vmexit took 3044 cycles
+[ 3258.222400]  32 iterations vmlaunch/vmexit took 5888 cycles
+[ 3258.223235]  64 iterations vmlaunch/vmexit took 11672 cycles
+[ 3258.224057]  128 iterations vmlaunch/vmexit took 23124 cycles
+[ 3258.224902]  256 iterations vmlaunch/vmexit took 46092 cycles
+[ 3258.225759]  512 iterations vmlaunch/vmexit took 91992 cycles
+[ 3258.226653]  1024 iterations vmlaunch/vmexit took 183816 cycles
+[ 3258.227649]  2048 iterations vmlaunch/vmexit took 367452 cycles
+[ 3258.228823]  4096 iterations vmlaunch/vmexit took 738728 cycles
+[ 3258.230350]  8192 iterations vmlaunch/vmexit took 1469272 cycles
+[ 3258.232576]  16384 iterations vmlaunch/vmexit took 2938372 cycles

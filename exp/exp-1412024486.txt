@@ -1,0 +1,151 @@
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 42
+model name	: Intel(R) Core(TM) i3-2367M CPU @ 1.40GHz
+stepping	: 7
+microcode	: 0x23
+cpu MHz		: 1400.000
+cache size	: 3072 KB
+physical id	: 0
+siblings	: 1
+core id		: 0
+cpu cores	: 1
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer xsave avx lahf_lm arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid
+bogomips	: 2793.48
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+Distributor ID:	Ubuntu
+Description:	Ubuntu 14.04 LTS
+Release:	14.04
+Codename:	trusty
+Dmesg output
+[   22.651357] usbcore: registered new interface driver btusb
+[   22.651953] e1000e 0000:00:19.0: irq 46 for MSI/MSI-X
+[   22.755638] e1000e 0000:00:19.0: irq 46 for MSI/MSI-X
+[   22.755792] IPv6: ADDRCONF(NETDEV_UP): eth0: link is not ready
+[   22.756470] IPv6: ADDRCONF(NETDEV_UP): eth0: link is not ready
+[   22.785397] IPv6: ADDRCONF(NETDEV_UP): wlan0: link is not ready
+[   22.786531] IPv6: ADDRCONF(NETDEV_UP): wlan0: link is not ready
+[   22.951982] usbcore: registered new interface driver ath3k
+[   23.070254] usb 2-1.6: USB disconnect, device number 4
+[   23.139514] init: alsa-restore main process (1752) terminated with status 99
+[   23.535579] usb 2-1.6: new full-speed USB device number 5 using ehci-pci
+[   23.628474] usb 2-1.6: New USB device found, idVendor=0cf3, idProduct=3005
+[   23.628481] usb 2-1.6: New USB device strings: Mfr=0, Product=0, SerialNumber=0
+[   25.445453] init: plymouth-upstart-bridge main process ended, respawning
+[   25.456588] init: plymouth-upstart-bridge main process (2243) terminated with status 1
+[   25.456610] init: plymouth-upstart-bridge main process ended, respawning
+[   79.556590] usb 3-1: new high-speed USB device number 2 using xhci_hcd
+[   79.586581] usb 3-1: New USB device found, idVendor=0930, idProduct=6545
+[   79.586587] usb 3-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[   79.586591] usb 3-1: Product: TransMemory     
+[   79.586594] usb 3-1: Manufacturer: TOSHIBA 
+[   79.586597] usb 3-1: SerialNumber: 5B850A00001A
+[   79.587369] usb-storage 3-1:1.0: USB Mass Storage device detected
+[   79.587493] scsi7 : usb-storage 3-1:1.0
+[   80.615847] scsi 7:0:0:0: Direct-Access     TOSHIBA  TransMemory      PMAP PQ: 0 ANSI: 0 CCS
+[   80.616269] sd 7:0:0:0: Attached scsi generic sg2 type 0
+[   81.938619] sd 7:0:0:0: [sdc] 3921920 512-byte logical blocks: (2.00 GB/1.87 GiB)
+[   81.938777] sd 7:0:0:0: [sdc] Write Protect is off
+[   81.938784] sd 7:0:0:0: [sdc] Mode Sense: 23 00 00 00
+[   81.938931] sd 7:0:0:0: [sdc] No Caching mode page found
+[   81.938937] sd 7:0:0:0: [sdc] Assuming drive cache: write through
+[   81.943387] sd 7:0:0:0: [sdc] No Caching mode page found
+[   81.943396] sd 7:0:0:0: [sdc] Assuming drive cache: write through
+[   81.985220]  sdc: sdc1
+[   81.988571] sd 7:0:0:0: [sdc] No Caching mode page found
+[   81.988580] sd 7:0:0:0: [sdc] Assuming drive cache: write through
+[   81.988587] sd 7:0:0:0: [sdc] Attached SCSI removable disk
+[  116.743824] toshiba_acpi: Unknown key 12e
+[  118.943658] toshiba_acpi: Unknown key 12e
+[  148.709579] kvm: disabling virtualization on CPU1
+[  148.812043] smpboot: CPU 1 is now offline
+[  148.840484] Broke affinity for irq 46
+[  148.841533] kvm: disabling virtualization on CPU2
+[  148.943984] smpboot: CPU 2 is now offline
+[  148.968444] Broke affinity for irq 16
+[  148.968453] Broke affinity for irq 18
+[  148.968469] Broke affinity for irq 40
+[  148.969544] kvm: disabling virtualization on CPU3
+[  149.072017] smpboot: CPU 3 is now offline
+[  150.460483] vmlaunch_simple: module verification failed: signature and/or  required key missing - tainting kernel
+[  150.462814] <1> In vmxon
+[  150.462819] <1> VMX supported CPU.
+[  150.462821] MSR 0x3A:Lock bit is on.VMXON bit is on.OK
+[  150.462823] <1> turned on cr4.vmxe
+[  150.462830] <1> Performing initial VMLAUNCH
+[  150.462834] <1> Going to do max 33000 iterations VMRESUME/VMEXIT
+[  150.462835] # iter    cycles
+[  150.462839]     1       832 cycles
+[  150.462842]     2      1576 cycles
+[  150.462846]     4      3112 cycles
+[  150.462853]     8      6172 cycles
+[  150.462864]    16     12292 cycles
+[  150.462883]    32     24536 cycles
+[  150.462920]    64     49008 cycles
+[  150.462993]   128     97984 cycles
+[  150.463135]   256    195916 cycles
+[  150.463444]   512    429564 cycles
+[  150.464122]  1024    942948 cycles
+[  150.465474]  2048   1885816 cycles
+[  150.468175]  4096   3771600 cycles
+[  150.473577]  8192   7543164 cycles
+[  150.484378] 16384  15086288 cycles
+[  150.505978] 32768  30172536 cycles
+[  150.505980] <1> Finished vmxon
+[  150.505982] <1> Machine in vmxon: Attempting vmxoff
+[  150.505983] <1> vmxoff complete
+[  150.505985] <1> turned off cr4.vmxe
+[  150.505987] <1> freeing allocated vmcs region!
+[  150.505988] <1> freeing allocated io bitmapA region!
+[  150.505990] <1> freeing allocated io bitmapB region!
+[  150.505992] <1> freeing allocated msr bitmap region!
+[  150.505993] <1> freeing allocated virtual apic page region!
+[  150.505995] <1> freeing allocated vmxon region!
+[  150.505997] <1> Enable interrupts
+[  150.506023] <1> Interrupts enabled
+[  150.506481] BUG: unable to handle kernel paging request at 000000000000ffff
+[  150.506536] IP: [<000000000000ffff>] 0xffff
+[  150.506568] PGD 0 
+[  150.506584] Oops: 0010 [#1] SMP 
+[  150.506609] Modules linked in: vmlaunch_simple(OF+) nls_iso8859_1 ath3k btusb joydev snd_hda_codec_hdmi dm_crypt snd_hda_codec_realtek arc4 snd_hda_intel ath9k snd_hda_codec ath9k_common snd_hwdep ath9k_hw snd_pcm intel_rapl x86_pkg_temp_thermal snd_page_alloc ath intel_powerclamp uvcvideo coretemp snd_seq_midi mac80211 snd_seq_midi_event videobuf2_vmalloc videobuf2_memops videobuf2_core snd_rawmidi kvm_intel kvm videodev cfg80211 crct10dif_pclmul crc32_pclmul snd_seq toshiba_acpi ghash_clmulni_intel dm_multipath bnep scsi_dh psmouse snd_seq_device mei_me snd_timer cryptd rfcomm mei sparse_keymap serio_raw bluetooth snd toshiba_bluetooth wmi lpc_ich soundcore mac_hid intel_rst parport_pc ppdev lp parport squashfs overlayfs nls_utf8 isofs dm_mirror dm_region_hash dm_log usb_storage hid_logitech_dj usbhid hid i915 e1000e ahci sdhci_pci libahci sdhci ptp i2c_algo_bit drm_kms_helper pps_core drm video
+[  150.507221] CPU: 0 PID: 4818 Comm: insmod Tainted: GF          O 3.13.0-24-generic #46-Ubuntu
+[  150.507274] Hardware name: TOSHIBA PORTEGE Z830/Portable PC, BIOS Version 1.80   04/18/2013
+[  150.507325] task: ffff880148a35fc0 ti: ffff880147886000 task.ti: ffff880147886000
+[  150.507372] RIP: 0010:[<000000000000ffff>]  [<000000000000ffff>] 0xffff
+[  150.507417] RSP: 0018:ffff880147887d30  EFLAGS: 00010282
+[  150.507450] RAX: 0000000000000000 RBX: 0000000000000006 RCX: 0000000000001d54
+[  150.507494] RDX: 000000000000587c RSI: 00000000587e587c RDI: 0000000000000246
+[  150.507538] RBP: 0000000000000000 R08: 0000000000000082 R09: 0000000000000391
+[  150.507582] R10: 0000000000000000 R11: ffff880147887a9e R12: 0000001000000000
+[  150.507626] R13: ffff880100000000 R14: 0000000000000001 R15: ffffffffa0709020
+[  150.507671] FS:  00007f325fac1740(0000) GS:ffff88014fa00000(0000) knlGS:0000000000000000
+[  150.507720] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[  150.507756] CR2: 000000000000ffff CR3: 000000014348b000 CR4: 00000000000407f0
+[  150.507800] Stack:
+[  150.507813]  ffffffffa0706180 ffffffffa0709070 ffff880147887db8 ffffffff8100214a
+[  150.507864]  0000000000000000 ffffffffa0709070 0000000000000001 ffffffffa0709020
+[  150.507914]  ffff880147887d90 ffffffff810598d3 0000000000000000 ffffffffa005d000
+[  150.507964] Call Trace:
+[  150.507986]  [<ffffffffa0706180>] ? vmxoff_finish+0x25/0x25 [vmlaunch_simple]
+[  150.508035]  [<ffffffff8100214a>] ? do_one_initcall+0xfa/0x1b0
+[  150.508075]  [<ffffffff810598d3>] ? set_memory_nx+0x43/0x50
+[  150.508115]  [<ffffffff810e1d4d>] ? load_module+0x12dd/0x1b40
+[  150.508154]  [<ffffffff810dd7d0>] ? store_uevent+0x40/0x40
+[  150.508192]  [<ffffffff810e2726>] ? SyS_finit_module+0x86/0xb0
+[  150.508232]  [<ffffffff8172663f>] ? tracesys+0xe1/0xe6
+[  150.508264] Code:  Bad RIP value.
+[  150.508287] RIP  [<000000000000ffff>] 0xffff
+[  150.508318]  RSP <ffff880147887d30>
+[  150.508341] CR2: 000000000000ffff
+[  150.516819] ---[ end trace 4286f27de5524ed7 ]---
