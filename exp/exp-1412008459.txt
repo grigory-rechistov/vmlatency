@@ -1,0 +1,152 @@
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 42
+model name	: Intel(R) Core(TM) i3-2310M CPU @ 2.10GHz
+stepping	: 7
+microcode	: 0x18
+cpu MHz		: 2100.000
+cache size	: 3072 KB
+physical id	: 0
+siblings	: 1
+core id		: 0
+cpu cores	: 1
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx rdtscp lm constant_tsc up arch_perfmon pebs bts nopl xtopology nonstop_tsc aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer xsave avx lahf_lm arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid
+bogomips	: 4186.45
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+LSB Version:	core-2.0-amd64:core-2.0-noarch:core-3.0-amd64:core-3.0-noarch:core-3.1-amd64:core-3.1-noarch:core-3.2-amd64:core-3.2-noarch:core-4.0-amd64:core-4.0-noarch
+Distributor ID:	Ubuntu
+Description:	Ubuntu 12.04.5 LTS
+Release:	12.04
+Codename:	precise
+Dmesg output
+[64685.957436] ata_piix 0000:00:1f.5: setting latency timer to 64
+[64685.957439] ata_piix 0000:00:1f.2: setting latency timer to 64
+[64685.957448] snd_hda_intel 0000:00:1b.0: irq 43 for MSI/MSI-X
+[64685.957671] rtlwifi: wireless switch is on
+[64685.957678] sdhci-pci 0000:0d:00.0: PCI INT A -> GSI 16 (level, low) -> IRQ 16
+[64685.957711] i915 0000:00:02.0: power state changed by ACPI to D0
+[64685.957717] i915 0000:00:02.0: power state changed by ACPI to D0
+[64685.957721] i915 0000:00:02.0: setting latency timer to 64
+[64685.959601] watchdog: only one watchdog can use /dev/watchdog.
+[64685.959604] watchdog: error registering /dev/watchdog (err=-16).
+[64685.959605] mei: unable to register watchdog device.
+[64685.963864] sd 0:0:0:0: [sda] Starting disk
+[64686.059164] PM: resume of drv:e1000e dev:0000:00:19.0 complete after 102.022 msecs
+[64686.135679] PM: resume of drv: dev:ep_00 complete after 172.132 msecs
+[64686.135695] PM: resume of drv:hub dev:1-1:1.0 complete after 172.172 msecs
+[64686.135713] PM: resume of drv: dev:ep_81 complete after 172.189 msecs
+[64686.207706] usb 1-1.6: reset high-speed USB device number 5 using ehci_hcd
+[64686.294859] ata3: SATA link down (SStatus 0 SControl 300)
+[64686.317782] PM: resume of drv: dev:ep_00 complete after 354.253 msecs
+[64686.317787] PM: resume of drv:uvcvideo dev:1-1.6:1.1 complete after 354.255 msecs
+[64686.317792] PM: resume of drv:uvcvideo dev:1-1.6:1.0 complete after 354.280 msecs
+[64686.317835] PM: resume of drv: dev:ep_81 complete after 354.319 msecs
+[64686.383532] usb 1-1.4: reset full-speed USB device number 4 using ehci_hcd
+[64686.459403] sdhci-pci 0000:0d:00.0: setting latency timer to 64
+[64686.459492] PM: resume of drv:sdhci-pci dev:0000:0d:00.0 complete after 502.501 msecs
+[64686.478498] btusb 1-1.4:1.0: no reset_resume for driver btusb?
+[64686.478508] btusb 1-1.4:1.1: no reset_resume for driver btusb?
+[64686.478698] PM: resume of drv:usb dev:1-1.4:1.1 complete after 515.395 msecs
+[64686.478704] PM: resume of drv:usb dev:1-1.4:1.0 complete after 515.427 msecs
+[64686.478708] PM: resume of drv:usb dev:1-1.4:1.2 complete after 515.386 msecs
+[64686.478710] PM: resume of drv: dev:ep_83 complete after 515.407 msecs
+[64686.478715] PM: resume of drv:usb dev:1-1.4:1.3 complete after 515.374 msecs
+[64686.478718] PM: resume of drv: dev:ep_03 complete after 515.404 msecs
+[64686.478720] PM: resume of drv: dev:ep_00 complete after 515.369 msecs
+[64686.478746] PM: resume of drv: dev:ep_81 complete after 515.467 msecs
+[64686.478763] PM: resume of drv: dev:ep_84 complete after 515.441 msecs
+[64686.478766] PM: resume of drv: dev:ep_02 complete after 515.473 msecs
+[64686.478770] PM: resume of drv: dev:ep_82 complete after 515.489 msecs
+[64686.478772] PM: resume of drv: dev:ep_04 complete after 515.440 msecs
+[64686.602027] PM: resume of drv:i915 dev:0000:00:02.0 complete after 645.427 msecs
+[64686.982963] ata4: failed to resume link (SControl 0)
+[64686.994454] ata4: SATA link down (SStatus 4 SControl 0)
+[64687.310501] ata1.01: failed to resume link (SControl 0)
+[64687.310602] ata2.01: failed to resume link (SControl 0)
+[64687.322081] ata2.00: SATA link down (SStatus 0 SControl 300)
+[64687.322097] ata2.01: SATA link down (SStatus 0 SControl 0)
+[64687.466476] ata1.00: SATA link up 1.5 Gbps (SStatus 113 SControl 300)
+[64687.466489] ata1.01: SATA link down (SStatus 0 SControl 0)
+[64687.474815] ata1.00: ACPI cmd ef/02:00:00:00:00:a0 (SET FEATURES) succeeded
+[64687.474830] ata1.00: ACPI cmd f5/00:00:00:00:00:a0 (SECURITY FREEZE LOCK) filtered out
+[64687.474832] ata1.00: ACPI cmd ef/03:45:00:00:00:a0 (SET FEATURES) filtered out
+[64687.474835] ata1.00: ACPI cmd ef/03:0c:00:00:00:a0 (SET FEATURES) filtered out
+[64687.474837] ata1.00: ACPI cmd ef/10:03:00:00:00:a0 (SET FEATURES) filtered out
+[64687.490614] ata1.00: configured for UDMA/133
+[64687.490918] PM: resume of drv:sd dev:0:0:0:0 complete after 1528.454 msecs
+[64687.490937] PM: resume of drv:scsi_disk dev:0:0:0:0 complete after 1511.507 msecs
+[64687.490947] PM: resume of drv:scsi_device dev:0:0:0:0 complete after 1528.453 msecs
+[64687.492200] hdaps: initial mode latch is 0x05
+[64687.492327] hdaps: setting ec_rate=250, filter_order=2
+[64687.492560] PM: resume of devices complete after 1536.832 msecs
+[64687.492885] PM: resume devices took 1.536 seconds
+[64687.493058] PM: Finishing wakeup.
+[64687.493060] Restarting tasks ... done.
+[64687.531230] video LNXVIDEO:00: Restoring backlight state
+[64687.953098] [drm:gen6_sanitize_pm] *ERROR* Power management discrepancy: GEN6_RP_INTERRUPT_LIMITS expected 16000000, was 12060000
+[64688.458312] e1000e 0000:00:19.0: irq 42 for MSI/MSI-X
+[64688.513407] e1000e 0000:00:19.0: irq 42 for MSI/MSI-X
+[64688.513993] ADDRCONF(NETDEV_UP): eth0: link is not ready
+[64688.518107] rtl8192c_common: Loading firmware file rtlwifi/rtl8192cfw.bin
+[64688.856354] ADDRCONF(NETDEV_UP): wlan0: link is not ready
+[64688.963966] rtl8192c_common: Loading firmware file rtlwifi/rtl8192cfw.bin
+[64691.951179] wlan0: authenticate with 84:1b:5e:2c:a7:7c (try 1)
+[64691.952859] wlan0: authenticated
+[64691.973445] wlan0: associate with 84:1b:5e:2c:a7:7c (try 1)
+[64691.977715] wlan0: RX AssocResp from 84:1b:5e:2c:a7:7c (capab=0x411 status=0 aid=2)
+[64691.977725] wlan0: associated
+[64691.978404] ADDRCONF(NETDEV_CHANGE): wlan0: link becomes ready
+[64702.980138] wlan0: no IPv6 routers present
+[64706.057308] teredo: no IPv6 routers present
+[64739.938441] [drm:gen6_sanitize_pm] *ERROR* Power management discrepancy: GEN6_RP_INTERRUPT_LIMITS expected 160d0000, was 16000000
+[65445.781985] CPU 1 is now offline
+[65445.792913] CPU 2 is now offline
+[65445.801570] Broke affinity for irq 41
+[65445.803092] CPU 3 is now offline
+[65445.803096] SMP alternatives: switching to UP code
+[65446.637807]  In vmxon
+[65446.637812]  VMX supported CPU.
+[65446.637813] MSR 0x3A:Lock bit is on.VMXON bit is on.OK
+[65446.637815]  turned on cr4.vmxe
+[65446.637820]  Performing initial VMLAUNCH
+[65446.637823]  Going to do max 33000 iterations VMRESUME/VMEXIT
+[65446.637824] # iter    cycles
+[65446.637826]     1       844 cycles
+[65446.637828]     2      1572 cycles
+[65446.637831]     4      3120 cycles
+[65446.637835]     8      6200 cycles
+[65446.637843]    16     12332 cycles
+[65446.637856]    32     24656 cycles
+[65446.637881]    64     49280 cycles
+[65446.637929]   128     98432 cycles
+[65446.638025]   256    196928 cycles
+[65446.638232]   512    430728 cycles
+[65446.638685]  1024    947248 cycles
+[65446.639592]  2048   1895464 cycles
+[65446.641404]  4096   3790888 cycles
+[65446.645025]  8192   7581732 cycles
+[65446.652270] 16384  15167524 cycles
+[65446.666753] 32768  30326816 cycles
+[65446.666755]  Finished vmxon
+[65446.666756]  Machine in vmxon: Attempting vmxoff
+[65446.666757]  vmxoff complete
+[65446.666758]  turned off cr4.vmxe
+[65446.666759]  freeing allocated vmcs region!
+[65446.666760]  freeing allocated io bitmapA region!
+[65446.666762]  freeing allocated io bitmapB region!
+[65446.666763]  freeing allocated msr bitmap region!
+[65446.666764]  freeing allocated virtual apic page region!
+[65446.666766]  freeing allocated vmxon region!
+[65446.666767]  Enable interrupts
+[65446.666838]  Interrupts enabled
