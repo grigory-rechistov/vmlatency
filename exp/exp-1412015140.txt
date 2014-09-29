@@ -1,0 +1,151 @@
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 42
+model name	: Intel(R) Core(TM) i7-2600 CPU @ 3.40GHz
+stepping	: 7
+microcode	: 0x14
+cpu MHz		: 3401.000
+cache size	: 8192 KB
+physical id	: 0
+siblings	: 1
+core id		: 0
+cpu cores	: 1
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx lahf_lm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid
+bogomips	: 6784.85
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+Distributor ID:	Ubuntu
+Description:	Ubuntu 14.04 LTS
+Release:	14.04
+Codename:	trusty
+Dmesg output
+[   12.871316] cfg80211:   (2402000 KHz - 2472000 KHz @ 40000 KHz), (300 mBi, 2000 mBm)
+[   12.871317] cfg80211:   (2457000 KHz - 2482000 KHz @ 40000 KHz), (300 mBi, 2000 mBm)
+[   12.871318] cfg80211:   (2474000 KHz - 2494000 KHz @ 20000 KHz), (300 mBi, 2000 mBm)
+[   12.871319] cfg80211:   (5170000 KHz - 5250000 KHz @ 40000 KHz), (300 mBi, 2000 mBm)
+[   12.871320] cfg80211:   (5735000 KHz - 5835000 KHz @ 40000 KHz), (300 mBi, 2000 mBm)
+[   13.161963] usb 2-1.5: reset high-speed USB device number 4 using ehci-pci
+[   13.264502] ieee80211 phy0: rt2x00_set_rt: Info - RT chipset 3070, rev 0201 detected
+[   13.292639] ieee80211 phy0: rt2x00_set_rf: Info - RF chipset 0005 detected
+[   13.346222] ieee80211 phy0: Selected rate control algorithm 'minstrel_ht'
+[   13.346450] usbcore: registered new interface driver rt2800usb
+[   13.638153] input: HDA NVidia HDMI/DP,pcm=9 as /devices/pci0000:00/0000:00:01.0/0000:01:00.1/sound/card1/input17
+[   13.638238] input: HDA NVidia HDMI/DP,pcm=8 as /devices/pci0000:00/0000:00:01.0/0000:01:00.1/sound/card1/input16
+[   13.638320] input: HDA NVidia HDMI/DP,pcm=7 as /devices/pci0000:00/0000:00:01.0/0000:01:00.1/sound/card1/input15
+[   13.638377] input: HDA NVidia HDMI/DP,pcm=3 as /devices/pci0000:00/0000:00:01.0/0000:01:00.1/sound/card1/input14
+[   13.973113] init: alsa-restore main process (1833) terminated with status 99
+[   14.091767] e1000e 0000:00:19.0: irq 49 for MSI/MSI-X
+[   14.194413] e1000e 0000:00:19.0: irq 49 for MSI/MSI-X
+[   14.194542] IPv6: ADDRCONF(NETDEV_UP): eth0: link is not ready
+[   14.194921] IPv6: ADDRCONF(NETDEV_UP): eth0: link is not ready
+[   14.196762] ieee80211 phy0: rt2x00lib_request_firmware: Info - Loading firmware file 'rt2870.bin'
+[   14.203113] ieee80211 phy0: rt2x00lib_request_firmware: Info - Firmware detected - version: 0.29
+[   14.598265] IPv6: ADDRCONF(NETDEV_UP): wlan0: link is not ready
+[   14.598596] IPv6: ADDRCONF(NETDEV_UP): wlan0: link is not ready
+[   15.644172] init: plymouth-upstart-bridge main process ended, respawning
+[   15.650139] init: plymouth-upstart-bridge main process (2397) terminated with status 1
+[   15.650148] init: plymouth-upstart-bridge main process ended, respawning
+[   15.741078] e1000e: eth0 NIC Link is Up 100 Mbps Full Duplex, Flow Control: None
+[   15.741082] e1000e 0000:00:19.0 eth0: 10/100 speed: disabling TSO
+[   15.741113] IPv6: ADDRCONF(NETDEV_CHANGE): eth0: link becomes ready
+[   79.264402] hda-codec: out of range cmd 2:5:707:ffffffff
+[   82.720234] EXT4-fs (sda7): mounting ext3 file system using the ext4 subsystem
+[   82.736484] EXT4-fs (sda7): mounted filesystem with ordered data mode. Opts: (null)
+[   95.621296] kvm: disabling virtualization on CPU1
+[   95.723972] smpboot: CPU 1 is now offline
+[   95.740364] Broke affinity for irq 49
+[   95.741383] kvm: disabling virtualization on CPU2
+[   95.844024] smpboot: CPU 2 is now offline
+[   95.873479] kvm: disabling virtualization on CPU3
+[   95.976096] smpboot: CPU 3 is now offline
+[   95.997444] kvm: disabling virtualization on CPU4
+[   96.100143] smpboot: CPU 4 is now offline
+[   96.117566] kvm: disabling virtualization on CPU5
+[   96.220198] smpboot: CPU 5 is now offline
+[   96.241685] kvm: disabling virtualization on CPU6
+[   96.344251] smpboot: CPU 6 is now offline
+[   96.364586] Broke affinity for irq 17
+[   96.364706] Broke affinity for irq 51
+[   96.365719] kvm: disabling virtualization on CPU7
+[   96.468306] smpboot: CPU 7 is now offline
+[   96.824774] vmlaunch_simple: module verification failed: signature and/or  required key missing - tainting kernel
+[   96.825873] <1> In vmxon
+[   96.825875] <1> VMX supported CPU.
+[   96.825875] MSR 0x3A:Lock bit is on.VMXON bit is on.OK
+[   96.825876] <1> turned on cr4.vmxe
+[   96.825879] <1> Performing initial VMLAUNCH
+[   96.825880] <1> Going to do max 33000 iterations VMRESUME/VMEXIT
+[   96.825881] # iter    cycles
+[   96.825882]     1       719 cycles
+[   96.825883]     2      1404 cycles
+[   96.825885]     4      2800 cycles
+[   96.825887]     8      5532 cycles
+[   96.825891]    16     11004 cycles
+[   96.825899]    32     21944 cycles
+[   96.825912]    64     43863 cycles
+[   96.825939]   128     87667 cycles
+[   96.825991]   256    175268 cycles
+[   96.826096]   512    350466 cycles
+[   96.826303]  1024    700894 cycles
+[   96.826766]  2048   1566522 cycles
+[   96.827762]  4096   3374598 cycles
+[   96.829753]  8192   6749142 cycles
+[   96.833735] 16384  13498260 cycles
+[   96.841697] 32768  26996479 cycles
+[   96.841698] <1> Finished vmxon
+[   96.841699] <1> Machine in vmxon: Attempting vmxoff
+[   96.841699] <1> vmxoff complete
+[   96.841700] <1> turned off cr4.vmxe
+[   96.841700] <1> freeing allocated vmcs region!
+[   96.841701] <1> freeing allocated io bitmapA region!
+[   96.841702] <1> freeing allocated io bitmapB region!
+[   96.841702] <1> freeing allocated msr bitmap region!
+[   96.841703] <1> freeing allocated virtual apic page region!
+[   96.841704] <1> freeing allocated vmxon region!
+[   96.841704] <1> Enable interrupts
+[   96.841718] <1> Interrupts enabled
+[   96.847875] BUG: unable to handle kernel paging request at 000000000000ffff
+[   96.847887] IP: [<000000000000ffff>] 0xffff
+[   96.847893] PGD 0 
+[   96.847895] Oops: 0010 [#1] SMP 
+[   96.847898] Modules linked in: vmlaunch_simple(OF+) snd_hda_codec_hdmi arc4 rt2800usb rt2x00usb rt2800lib rt2x00lib mac80211 cfg80211 snd_hda_codec_realtek dm_crypt snd_hda_intel intel_rapl snd_hda_codec x86_pkg_temp_thermal crc_ccitt intel_powerclamp snd_hwdep snd_pcm coretemp snd_page_alloc snd_seq_midi gpio_ich snd_seq_midi_event kvm_intel snd_rawmidi kvm snd_seq dm_multipath snd_seq_device mei_me scsi_dh snd_timer btusb mei snd lpc_ich crct10dif_pclmul bnep psmouse crc32_pclmul soundcore ghash_clmulni_intel rfcomm aesni_intel aes_x86_64 lrw bluetooth serio_raw mac_hid gf128mul glue_helper parport_pc ablk_helper ppdev cryptd lp parport squashfs overlayfs nls_utf8 isofs nls_iso8859_1 dm_mirror dm_region_hash dm_log pata_acpi usb_storage hid_generic usbhid hid pata_marvell nouveau mxm_wmi video i2c_algo_bit ttm drm_kms_helper ahci firewire_ohci e1000e libahci wmi drm firewire_core ptp crc_itu_t pps_core
+[   96.847967] CPU: 0 PID: 5129 Comm: insmod Tainted: GF          O 3.13.0-24-generic #46-Ubuntu
+[   96.847971] Hardware name:                  /DP67BG, BIOS BGP6710J.86A.1900.2011.0210.1012 02/10/2011
+[   96.847974] task: ffff8800d5f917f0 ti: ffff8800b843a000 task.ti: ffff8800b843a000
+[   96.847977] RIP: 0010:[<000000000000ffff>]  [<000000000000ffff>] 0xffff
+[   96.847981] RSP: 0018:ffff8800b843bd30  EFLAGS: 00010282
+[   96.847984] RAX: 0000000000000000 RBX: 0000000000000006 RCX: 00000000000022ba
+[   96.847987] RDX: 0000000000005d5e RSI: 000000005d605d5e RDI: 0000000000000246
+[   96.847989] RBP: 0000000000000000 R08: 0000000000000082 R09: 00000000000003a1
+[   96.847992] R10: 0000000000000000 R11: ffff8800b843ba9e R12: 0000001000000000
+[   96.847995] R13: ffff880200000000 R14: 0000000000000001 R15: ffffffffa0528020
+[   96.847998] FS:  00007f8ba6059740(0000) GS:ffff88021f400000(0000) knlGS:0000000000000000
+[   96.848001] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[   96.848003] CR2: 00007f0013fa2000 CR3: 00000000d351b000 CR4: 00000000000407f0
+[   96.848006] Stack:
+[   96.848008]  ffffffffa0525180 ffffffffa0528070 ffff8800b843bdb8 ffffffff8100214a
+[   96.848019]  0000000000000000 ffffffffa0528070 0000000000000001 ffffffffa0528020
+[   96.848023]  ffff8800b843bd90 ffffffff810598d3 0000000000000000 ffffffffa0007000
+[   96.848027] Call Trace:
+[   96.848032]  [<ffffffffa0525180>] ? vmxoff_finish+0x25/0x25 [vmlaunch_simple]
+[   96.848037]  [<ffffffff8100214a>] ? do_one_initcall+0xfa/0x1b0
+[   96.848041]  [<ffffffff810598d3>] ? set_memory_nx+0x43/0x50
+[   96.848046]  [<ffffffff810e1d4d>] ? load_module+0x12dd/0x1b40
+[   96.848050]  [<ffffffff810dd7d0>] ? store_uevent+0x40/0x40
+[   96.848054]  [<ffffffff810e2726>] ? SyS_finit_module+0x86/0xb0
+[   96.848058]  [<ffffffff8172663f>] ? tracesys+0xe1/0xe6
+[   96.848061] Code:  Bad RIP value.
+[   96.848063] RIP  [<000000000000ffff>] 0xffff
+[   96.848066]  RSP <ffff8800b843bd30>
+[   96.848068] CR2: 000000000000ffff
+[   96.854759] ---[ end trace 075ba642f9ee2593 ]---

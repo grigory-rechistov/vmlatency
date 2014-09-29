@@ -1,0 +1,151 @@
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 42
+model name	: Intel(R) Core(TM) i7-2600 CPU @ 3.40GHz
+stepping	: 7
+microcode	: 0x14
+cpu MHz		: 3401.000
+cache size	: 8192 KB
+physical id	: 0
+siblings	: 8
+core id		: 0
+cpu cores	: 4
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx lahf_lm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid
+bogomips	: 6784.41
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+Distributor ID:	Ubuntu
+Description:	Ubuntu 14.04 LTS
+Release:	14.04
+Codename:	trusty
+Dmesg output
+[   12.574676]      Front Mic=0x19
+[   12.574677]      Rear Mic=0x18
+[   12.574678]      Line=0x1a
+[   12.574679] realtek: No valid SSID, checking pincfg 0x4006f601 for NID 0x1d
+[   12.574680] realtek: Enabling init ASM_ID=0xf601 CODEC_ID=10ec0892
+[   12.578891] cfg80211: Calling CRDA to update world regulatory domain
+[   12.585185] input: HDA Intel PCH Front Headphone as /devices/pci0000:00/0000:00:1b.0/sound/card0/input13
+[   12.585238] input: HDA Intel PCH Line Out CLFE as /devices/pci0000:00/0000:00:1b.0/sound/card0/input12
+[   12.585307] input: HDA Intel PCH Line Out Surround as /devices/pci0000:00/0000:00:1b.0/sound/card0/input11
+[   12.585376] input: HDA Intel PCH Line Out Front as /devices/pci0000:00/0000:00:1b.0/sound/card0/input10
+[   12.585445] input: HDA Intel PCH Line as /devices/pci0000:00/0000:00:1b.0/sound/card0/input9
+[   12.585506] input: HDA Intel PCH Rear Mic as /devices/pci0000:00/0000:00:1b.0/sound/card0/input8
+[   12.585554] input: HDA Intel PCH Front Mic as /devices/pci0000:00/0000:00:1b.0/sound/card0/input7
+[   12.585761] hda_intel: Disabling MSI
+[   12.585767] hda-intel 0000:01:00.1: Handle VGA-switcheroo audio client
+[   12.585798] hda-intel 0000:01:00.1: Disabling 64bit DMA
+[   12.589045] hda-intel 0000:01:00.1: Enable delay in RIRB handling
+[   12.653741] intel_rapl: domain uncore energy ctr 0:0 not working, skip
+[   12.702646] cfg80211: World regulatory domain updated:
+[   12.702649] cfg80211:   (start_freq - end_freq @ bandwidth), (max_antenna_gain, max_eirp)
+[   12.702651] cfg80211:   (2402000 KHz - 2472000 KHz @ 40000 KHz), (300 mBi, 2000 mBm)
+[   12.702652] cfg80211:   (2457000 KHz - 2482000 KHz @ 40000 KHz), (300 mBi, 2000 mBm)
+[   12.702653] cfg80211:   (2474000 KHz - 2494000 KHz @ 20000 KHz), (300 mBi, 2000 mBm)
+[   12.702654] cfg80211:   (5170000 KHz - 5250000 KHz @ 40000 KHz), (300 mBi, 2000 mBm)
+[   12.702655] cfg80211:   (5735000 KHz - 5835000 KHz @ 40000 KHz), (300 mBi, 2000 mBm)
+[   13.013926] usb 2-1.5: reset high-speed USB device number 4 using ehci-pci
+[   13.116589] ieee80211 phy0: rt2x00_set_rt: Info - RT chipset 3070, rev 0201 detected
+[   13.144720] ieee80211 phy0: rt2x00_set_rf: Info - RF chipset 0005 detected
+[   13.325502] ieee80211 phy0: Selected rate control algorithm 'minstrel_ht'
+[   13.325737] usbcore: registered new interface driver rt2800usb
+[   13.438123] input: HDA NVidia HDMI/DP,pcm=9 as /devices/pci0000:00/0000:00:01.0/0000:01:00.1/sound/card1/input17
+[   13.438199] input: HDA NVidia HDMI/DP,pcm=8 as /devices/pci0000:00/0000:00:01.0/0000:01:00.1/sound/card1/input16
+[   13.438265] input: HDA NVidia HDMI/DP,pcm=7 as /devices/pci0000:00/0000:00:01.0/0000:01:00.1/sound/card1/input15
+[   13.438323] input: HDA NVidia HDMI/DP,pcm=3 as /devices/pci0000:00/0000:00:01.0/0000:01:00.1/sound/card1/input14
+[   13.824437] init: alsa-restore main process (1791) terminated with status 99
+[   13.883622] e1000e 0000:00:19.0: irq 49 for MSI/MSI-X
+[   13.986343] e1000e 0000:00:19.0: irq 49 for MSI/MSI-X
+[   13.986465] IPv6: ADDRCONF(NETDEV_UP): eth0: link is not ready
+[   13.986742] IPv6: ADDRCONF(NETDEV_UP): eth0: link is not ready
+[   13.988006] ieee80211 phy0: rt2x00lib_request_firmware: Info - Loading firmware file 'rt2870.bin'
+[   13.994204] ieee80211 phy0: rt2x00lib_request_firmware: Info - Firmware detected - version: 0.29
+[   14.394320] IPv6: ADDRCONF(NETDEV_UP): wlan0: link is not ready
+[   14.394569] IPv6: ADDRCONF(NETDEV_UP): wlan0: link is not ready
+[   15.439644] init: plymouth-upstart-bridge main process ended, respawning
+[   15.442905] init: plymouth-upstart-bridge main process (2398) terminated with status 1
+[   15.442914] init: plymouth-upstart-bridge main process ended, respawning
+[   15.532859] e1000e: eth0 NIC Link is Up 100 Mbps Full Duplex, Flow Control: None
+[   15.532863] e1000e 0000:00:19.0 eth0: 10/100 speed: disabling TSO
+[   15.532893] IPv6: ADDRCONF(NETDEV_CHANGE): eth0: link becomes ready
+[  200.365203] EXT4-fs (sda7): mounting ext3 file system using the ext4 subsystem
+[  200.381869] EXT4-fs (sda7): mounted filesystem with ordered data mode. Opts: (null)
+[  234.383794] vmlaunch_simple: module verification failed: signature and/or  required key missing - tainting kernel
+[  234.384016] <1> In vmxon
+[  234.384017] <1> VMX supported CPU.
+[  234.384018] MSR 0x3A:Lock bit is on.VMXON bit is on.OK
+[  234.384019] <1> turned on cr4.vmxe
+[  234.384022] <1> Performing initial VMLAUNCH
+[  234.384023] <1> Going to do max 32000 iterations VMRESUME/VMEXIT
+[  234.384024] # iter    cycles
+[  234.384033]     1       776 cycles
+[  234.384034]     2      1474 cycles
+[  234.384036]     4      2955 cycles
+[  234.384038]     8      5845 cycles
+[  234.384043]    16     11613 cycles
+[  234.384050]    32     23179 cycles
+[  234.384065]    64     46283 cycles
+[  234.384113]   128    159887 cycles
+[  234.384185]   256    243613 cycles
+[  234.384314]   512    433269 cycles
+[  234.384587]  1024    924271 cycles
+[  234.385192]  2048   2044881 cycles
+[  234.386243]  4096   3562059 cycles
+[  234.388358]  8192   7161859 cycles
+[  234.392607] 16384  14397721 cycles
+[  234.392609] <1> Finished vmxon
+[  234.392610] <1> Machine in vmxon: Attempting vmxoff
+[  234.392611] <1> vmxoff complete
+[  234.392611] <1> turned off cr4.vmxe
+[  234.392612] <1> freeing allocated vmcs region!
+[  234.392613] <1> freeing allocated io bitmapA region!
+[  234.392614] <1> freeing allocated io bitmapB region!
+[  234.392614] <1> freeing allocated msr bitmap region!
+[  234.392615] <1> freeing allocated virtual apic page region!
+[  234.392616] <1> freeing allocated vmxon region!
+[  234.392616] <1> Enable Interrupts
+[  234.392645] BUG: unable to handle kernel paging request at 000000000000ffff
+[  234.392659] IP: [<000000000000ffff>] 0xffff
+[  234.392668] PGD 0 
+[  234.392673] Oops: 0010 [#1] SMP 
+[  234.392682] Modules linked in: vmlaunch_simple(OF+) arc4 snd_hda_codec_hdmi rt2800usb rt2x00usb rt2800lib rt2x00lib mac80211 cfg80211 snd_hda_codec_realtek snd_hda_intel dm_crypt intel_rapl snd_hda_codec x86_pkg_temp_thermal intel_powerclamp snd_hwdep snd_pcm coretemp snd_page_alloc kvm_intel snd_seq_midi crc_ccitt kvm snd_seq_midi_event snd_rawmidi gpio_ich snd_seq snd_seq_device dm_multipath snd_timer mei_me crct10dif_pclmul scsi_dh mei bnep lpc_ich btusb crc32_pclmul snd ghash_clmulni_intel aesni_intel psmouse soundcore rfcomm aes_x86_64 lrw serio_raw bluetooth mac_hid gf128mul parport_pc glue_helper ppdev ablk_helper cryptd lp parport squashfs overlayfs nls_utf8 isofs nls_iso8859_1 dm_mirror dm_region_hash dm_log pata_acpi usb_storage hid_generic usbhid hid pata_marvell nouveau mxm_wmi video i2c_algo_bit firewire_ohci ttm ahci firewire_core libahci drm_kms_helper crc_itu_t e1000e drm ptp pps_core wmi
+[  234.392773] CPU: 4 PID: 5128 Comm: insmod Tainted: GF          O 3.13.0-24-generic #46-Ubuntu
+[  234.392776] Hardware name:                  /DP67BG, BIOS BGP6710J.86A.1900.2011.0210.1012 02/10/2011
+[  234.392780] task: ffff8800c9adafe0 ti: ffff880205a6e000 task.ti: ffff880205a6e000
+[  234.392783] RIP: 0010:[<000000000000ffff>]  [<000000000000ffff>] 0xffff
+[  234.392788] RSP: 0018:ffff880205a6fd30  EFLAGS: 00010282
+[  234.392790] RAX: 0000000000000000 RBX: 0000000000000006 RCX: 0000000000000006
+[  234.392793] RDX: 0000000000000007 RSI: 00000000592c592a RDI: 0000000000000046
+[  234.392796] RBP: 0000000000000000 R08: 0000000000000082 R09: 0000000000000390
+[  234.392799] R10: 0000000000000000 R11: ffff880205a6fa1e R12: 0000001000000000
+[  234.392802] R13: ffff880200000000 R14: 0000000000000001 R15: ffffffffa0544020
+[  234.392805] FS:  00007f3b76ab7740(0000) GS:ffff88021f500000(0000) knlGS:0000000000000000
+[  234.392808] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[  234.392811] CR2: 000000000000ffff CR3: 00000001fa211000 CR4: 00000000000407e0
+[  234.392814] Stack:
+[  234.392815]  ffffffffa0541180 ffffffffa0544070 ffff880205a6fdb8 ffffffff8100214a
+[  234.392820]  0000000000000000 ffffffffa0544070 0000000000000001 ffffffffa0544020
+[  234.392825]  ffff880205a6fd90 ffffffff810598d3 0000000000000000 ffffffffa0007000
+[  234.392829] Call Trace:
+[  234.392834]  [<ffffffffa0541180>] ? vmxoff_finish+0x25/0x25 [vmlaunch_simple]
+[  234.392840]  [<ffffffff8100214a>] ? do_one_initcall+0xfa/0x1b0
+[  234.392844]  [<ffffffff810598d3>] ? set_memory_nx+0x43/0x50
+[  234.392848]  [<ffffffff810e1d4d>] ? load_module+0x12dd/0x1b40
+[  234.392853]  [<ffffffff810dd7d0>] ? store_uevent+0x40/0x40
+[  234.392857]  [<ffffffff810e2726>] ? SyS_finit_module+0x86/0xb0
+[  234.392861]  [<ffffffff8172663f>] ? tracesys+0xe1/0xe6
+[  234.392863] Code:  Bad RIP value.
+[  234.392868] RIP  [<000000000000ffff>] 0xffff
+[  234.392871]  RSP <ffff880205a6fd30>
+[  234.392873] CR2: 000000000000ffff
+[  234.399125] ---[ end trace 8cef48b05a2a5f99 ]---

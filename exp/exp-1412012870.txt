@@ -1,0 +1,61 @@
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 42
+model name	: Intel(R) Core(TM) i7-2600 CPU @ 3.40GHz
+stepping	: 7
+microcode	: 0x14
+cpu MHz		: 3401.000
+cache size	: 8192 KB
+physical id	: 0
+siblings	: 8
+core id		: 0
+cpu cores	: 4
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx lahf_lm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid
+bogomips	: 6784.37
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+Distributor ID:	Ubuntu
+Description:	Ubuntu 14.04 LTS
+Release:	14.04
+Codename:	trusty
+[ 2264.393726] Modules linked in: vmlaunch_simple(OF+) arc4 snd_hda_codec_hdmi rt2800usb rt2x00usb rt2800lib rt2x00lib mac80211 cfg80211 snd_hda_codec_realtek dm_crypt snd_hda_intel snd_hda_codec intel_rapl snd_hwdep x86_pkg_temp_thermal snd_pcm crc_ccitt intel_powerclamp snd_page_alloc snd_seq_midi snd_seq_midi_event gpio_ich coretemp snd_rawmidi kvm_intel snd_seq snd_seq_device dm_multipath kvm btusb snd_timer scsi_dh psmouse mei_me snd mei lpc_ich serio_raw soundcore mac_hid crct10dif_pclmul bnep crc32_pclmul parport_pc ghash_clmulni_intel aesni_intel rfcomm aes_x86_64 ppdev lrw gf128mul lp bluetooth glue_helper ablk_helper cryptd parport squashfs overlayfs nls_utf8 isofs nls_iso8859_1 dm_mirror dm_region_hash dm_log pata_acpi usb_storage hid_generic usbhid hid pata_marvell nouveau firewire_ohci firewire_core ahci libahci crc_itu_t mxm_wmi e1000e video i2c_algo_bit wmi ttm ptp drm_kms_helper pps_core drm
+[ 2264.393798] CPU: 3 PID: 12542 Comm: insmod Tainted: GF          O 3.13.0-24-generic #46-Ubuntu
+[ 2264.393801] Hardware name:                  /DP67BG, BIOS BGP6710J.86A.1900.2011.0210.1012 02/10/2011
+[ 2264.393805] task: ffff880212f75fc0 ti: ffff8800c8c58000 task.ti: ffff8800c8c58000
+[ 2264.393810] RIP: 0010:[<000000000000ffff>]  [<000000000000ffff>] 0xffff
+[ 2264.393815] RSP: 0018:ffff8800c8c59d30  EFLAGS: 00010282
+[ 2264.393817] RAX: 0000000000000000 RBX: 0000000000000006 RCX: 0000000000000006
+[ 2264.393820] RDX: 0000000000000007 RSI: 00000000a424a422 RDI: 0000000000000046
+[ 2264.393823] RBP: 0000000000000000 R08: 0000000000000082 R09: 000000000000038e
+[ 2264.393825] R10: 0000000000000000 R11: ffff8800c8c59a1e R12: 0000001000000000
+[ 2264.393828] R13: ffff880200000000 R14: 0000000000000001 R15: ffffffffa04f9020
+[ 2264.393831] FS:  00007f8cb6fe5740(0000) GS:ffff88021f4c0000(0000) knlGS:0000000000000000
+[ 2264.393834] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[ 2264.393837] CR2: 000000000000ffff CR3: 00000000ca931000 CR4: 00000000000407e0
+[ 2264.393840] Stack:
+[ 2264.393841]  ffffffffa04f6180 ffffffffa04f9070 ffff8800c8c59db8 ffffffff8100214a
+[ 2264.393846]  0000000000000000 ffffffffa04f9070 0000000000000001 ffffffffa04f9020
+[ 2264.393851]  ffff8800c8c59d90 ffffffff810598d3 0000000000000000 ffffffffa006d000
+[ 2264.393855] Call Trace:
+[ 2264.393860]  [<ffffffffa04f6180>] ? vmxoff_finish+0x25/0x25 [vmlaunch_simple]
+[ 2264.393865]  [<ffffffff8100214a>] ? do_one_initcall+0xfa/0x1b0
+[ 2264.393869]  [<ffffffff810598d3>] ? set_memory_nx+0x43/0x50
+[ 2264.393874]  [<ffffffff810e1d4d>] ? load_module+0x12dd/0x1b40
+[ 2264.393879]  [<ffffffff810dd7d0>] ? store_uevent+0x40/0x40
+[ 2264.393882]  [<ffffffff810e2726>] ? SyS_finit_module+0x86/0xb0
+[ 2264.393887]  [<ffffffff8172663f>] ? tracesys+0xe1/0xe6
+[ 2264.393889] Code:  Bad RIP value.
+[ 2264.393891] RIP  [<000000000000ffff>] 0xffff
+[ 2264.393895]  RSP <ffff8800c8c59d30>
+[ 2264.393897] CR2: 000000000000ffff
+[ 2264.398390] ---[ end trace de5235c3520efa91 ]---
