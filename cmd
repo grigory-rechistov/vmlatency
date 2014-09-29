@@ -1,1 +1,1 @@
-sudo make -C /home/vmohan/k3/linux-2.6/  M=`pwd` modules
+make -C /usr/src/linux-headers-`uname -r` M=`pwd` modules

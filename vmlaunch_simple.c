@@ -1,4 +1,6 @@
 ///////////////////////////////////////////////
+// GGG: ggg-lvmm based on code from:
+//
 //Author: Vish Mohan
 //x86 Hardware Assisted virtualization: Intel VT
 //Description: A very basic driver that walks 
@@ -44,6 +46,8 @@ MODULE_LICENSE("Dual BSD/GPL");
 #define VMX_BASIC_MSR 0x480
 #define FEATURE_CONTROL_MSR 0x3A
 #define CPUID_VMX_BIT 5
+
+#define N_ITER 32000
 
 bool alloc_failure = false;
 int vmx_msr_addr = VMX_BASIC_MSR;
@@ -842,14 +846,25 @@ static void vmxon_exit(void) {
    deallocate_vmxon_region();
 }
 
-
+static __inline__ uint64_t rdtsc(void)
+{
+    uint32_t hi=0, lo=0;
+    __asm__ __volatile__ ("rdtsc" : "=a"(lo), "=d"(hi));
+    return ( (uint64_t)lo)|( ((uint64_t)hi) << 32 );
+}
 
 static int vmxon_init(void) {
-   unsigned long field_1;
-   u32 value_1    =0;
+   //unsigned long field_1;
+   //u32 value_1    =0;
    int cpuid_leaf =1;
    int cpuid_ecx  =0;
    int msr3a_value = 0;
+
+   u64 start = 0;
+   u64 end = 0;
+   u64 duration = 0;
+   int cur = 0;
+   int n_round = 0;
 
    printk("<1> In vmxon\n");
    save_registers();
@@ -930,25 +945,44 @@ static int vmxon_init(void) {
    asm ("movq $guest_entry_point, %rax");
    asm ("vmwrite %rax, %rdx");
 
-   asm volatile (MY_VMX_VMLAUNCH);
-   asm volatile("jbe vmexit_handler\n");
-   asm volatile("nop\n"); //will never get here
-   asm volatile("guest_entry_point:");
-   asm volatile(MY_VMX_VMCALL);
-   asm volatile("ud2\n"); //will never get here
-   asm volatile("vmexit_handler:\n");
+   printk("<1> Going to do max %d iterations VMLAUNCH/VMEXIT\n", N_ITER);
+   
+   for (n_round = 1; n_round < N_ITER; n_round *=2) {
+     start = rdtsc();
+     for (cur = 0; cur < n_round; cur++) {
+        asm volatile (MY_VMX_VMLAUNCH);
+	asm volatile("jbe vmexit_handler\n");
+	asm volatile("nop\n"); //will never get here
+       // Guest code snippet
+       asm volatile("guest_entry_point:");
+       asm volatile(MY_VMX_VMCALL); // will jump to vmexit_handler
+       asm volatile("ud2\n"); //will never get here
 
-   field_1 = VMX_EXIT_REASON;
-   value_1 = do_vmread(field_1);
-   printk("<1> Guest VMexit reason: 0x%x\n",value_1);
-   printk("<1> Enable Interrupts\n");
-   asm volatile("sti\n");
+	asm volatile("vmexit_handler:\n");
+	asm volatile("nop\n"); // to play safe
+     }
+     end = rdtsc();
+     duration = end - start;
+
+     //field_1 = VMX_EXIT_REASON;
+     //value_1 = do_vmread(field_1);
+     //printk("<1> Guest VMexit reason: 0x%x\n",value_1);
+     printk("<1> %d iterations vmlaunch/vmexit took %lld cycles\n", n_round, duration);
+   }
 
    printk("<1> Finished vmxon\n");
+
+   vmxon_exit(); // operate on the same thread, thus interrupts are still off
+   printk("<1> Enable Interrupts\n");
+   asm volatile("sti\n");
 finish_here:
+
    return 0;
 }
 
+static void vmxon_exit_stub(void) {
+    ; /* Nothing here - VMX is already off */
+}
 
 module_init(vmxon_init);
-module_exit(vmxon_exit);
+module_exit(vmxon_exit_stub);

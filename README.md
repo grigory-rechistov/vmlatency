@@ -1,3 +1,8 @@
+vmlatency - GGG's Lame Virtual Monitor Meter. 
+The code is based on the vmlaunch by Vish Mohan.
+WARNING: the kernel module is completely unstable, may crash your system at random. 
+Do not use. I told you.
+
 vmlaunch
 ========
 
