@@ -47,7 +47,7 @@ MODULE_LICENSE("Dual BSD/GPL");
 #define FEATURE_CONTROL_MSR 0x3A
 #define CPUID_VMX_BIT 5
 
-#define N_ITER 32000
+#define N_ITER 33000
 
 bool alloc_failure = false;
 int vmx_msr_addr = VMX_BASIC_MSR;
@@ -944,7 +944,7 @@ static int vmxon_init(void) {
     asm volatile("movq $guest_launch_point, %rax");
     asm volatile("vmwrite %rax, %rdx");
 
-    printk("<1> Performing initial VMLAUNCH");
+    printk("<1> Performing initial VMLAUNCH\n");
     asm volatile (MY_VMX_VMLAUNCH);
     asm volatile("guest_launch_point:");
     asm volatile(MY_VMX_VMCALL); // will jump to prepare_handler
@@ -966,7 +966,7 @@ static int vmxon_init(void) {
     
     printk("<1> Going to do max %d iterations VMRESUME/VMEXIT\n", N_ITER);
     
-    printk("# ");
+    printk("# iter    cycles\n");
     for (n_round = 1; n_round < N_ITER; n_round *=2) {
         start = rdtsc();
         for (cur = 0; cur < n_round; cur++) {
@@ -989,8 +989,9 @@ static int vmxon_init(void) {
     printk("<1> Finished vmxon\n");
 
     vmxon_exit(); // operate on the same thread, thus interrupts are still off
-    printk("<1> Enable Interrupts\n");
+    printk("<1> Enable interrupts\n");
     asm volatile("sti\n");
+    printk("<1> Interrupts enabled");
     finish_here:
 
     return 0;
