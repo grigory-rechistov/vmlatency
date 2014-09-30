@@ -1,0 +1,151 @@
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 69
+model name	: Intel(R) Core(TM) i5-4300U CPU @ 1.90GHz
+stepping	: 1
+microcode	: 0x17
+cpu MHz		: 1900.000
+cache size	: 3072 KB
+physical id	: 0
+siblings	: 1
+core id		: 0
+cpu cores	: 1
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm
+bogomips	: 4988.51
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+Distributor ID:	Ubuntu
+Description:	Ubuntu 14.04 LTS
+Release:	14.04
+Codename:	trusty
+Dmesg output
+[   21.272080] intel_rapl: domain uncore energy ctr 79822:79822 not working, skip
+[   22.045100] e1000e 0000:00:19.0: irq 61 for MSI/MSI-X
+[   22.149103] e1000e 0000:00:19.0: irq 61 for MSI/MSI-X
+[   22.149225] IPv6: ADDRCONF(NETDEV_UP): eth0: link is not ready
+[   22.149594] IPv6: ADDRCONF(NETDEV_UP): eth0: link is not ready
+[   22.152016] iwlwifi 0000:03:00.0: L1 Enabled; Disabling L0S
+[   22.152510] iwlwifi 0000:03:00.0: L1 Enabled; Disabling L0S
+[   22.167774] IPv6: ADDRCONF(NETDEV_UP): wlan0: link is not ready
+[   22.168019] IPv6: ADDRCONF(NETDEV_UP): wlan0: link is not ready
+[   22.210200] init: alsa-restore main process (1669) terminated with status 99
+[   23.113265] init: plymouth-upstart-bridge main process ended, respawning
+[   23.118703] init: plymouth-upstart-bridge main process (2269) terminated with status 1
+[   23.118718] init: plymouth-upstart-bridge main process ended, respawning
+[   23.729054] psmouse serio2: alps: Unknown ALPS touchpad: E7=10 00 64, EC=10 00 64
+[   25.052818] psmouse serio2: trackpoint: IBM TrackPoint firmware: 0x0e, buttons: 3/3
+[   25.264312] input: TPPS/2 IBM TrackPoint as /devices/platform/i8042/serio1/serio2/input/input12
+[   65.480775] e1000e 0000:00:19.0: irq 61 for MSI/MSI-X
+[   65.489239] thinkpad_acpi: EC reports that Thermal Table has changed
+[   73.733905] usb 2-1: new high-speed USB device number 6 using xhci_hcd
+[   73.762332] usb 2-1: New USB device found, idVendor=0930, idProduct=6545
+[   73.762337] usb 2-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[   73.762339] usb 2-1: Product: TransMemory     
+[   73.762341] usb 2-1: Manufacturer: TOSHIBA 
+[   73.762342] usb 2-1: SerialNumber: 5B850A00001A
+[   73.762804] usb-storage 2-1:1.0: USB Mass Storage device detected
+[   73.763531] scsi4 : usb-storage 2-1:1.0
+[   74.794209] scsi 4:0:0:0: Direct-Access     TOSHIBA  TransMemory      PMAP PQ: 0 ANSI: 0 CCS
+[   74.794477] sd 4:0:0:0: Attached scsi generic sg2 type 0
+[   76.133606] sd 4:0:0:0: [sdc] 3921920 512-byte logical blocks: (2.00 GB/1.87 GiB)
+[   76.133846] sd 4:0:0:0: [sdc] Write Protect is off
+[   76.133849] sd 4:0:0:0: [sdc] Mode Sense: 23 00 00 00
+[   76.134016] sd 4:0:0:0: [sdc] No Caching mode page found
+[   76.134018] sd 4:0:0:0: [sdc] Assuming drive cache: write through
+[   76.136202] sd 4:0:0:0: [sdc] No Caching mode page found
+[   76.136205] sd 4:0:0:0: [sdc] Assuming drive cache: write through
+[   76.178673]  sdc: sdc1
+[   76.179585] sd 4:0:0:0: [sdc] No Caching mode page found
+[   76.179591] sd 4:0:0:0: [sdc] Assuming drive cache: write through
+[   76.179595] sd 4:0:0:0: [sdc] Attached SCSI removable disk
+[  123.838138] kvm: disabling virtualization on CPU1
+[  123.941050] smpboot: CPU 1 is now offline
+[  123.957796] Broke affinity for irq 61
+[  123.958824] kvm: disabling virtualization on CPU2
+[  124.061178] smpboot: CPU 2 is now offline
+[  124.081358] Broke affinity for irq 23
+[  124.082394] kvm: disabling virtualization on CPU3
+[  124.082406] smpboot: CPU 3 is now offline
+[  124.639477] vmlaunch_simple: module verification failed: signature and/or  required key missing - tainting kernel
+[  124.641318] <1> In vmxon
+[  124.641320] <1> VMX supported CPU.
+[  124.641321] MSR 0x3A:Lock bit is on.VMXON bit is on.OK
+[  124.641322] <1> turned on cr4.vmxe
+[  124.641325] <1> Performing initial VMLAUNCH
+[  124.641327] <1> Going to do max 33000 iterations VMRESUME/VMEXIT
+[  124.641327] # iter    cycles
+[  124.641329]     1       528 cycles
+[  124.641330]     2       982 cycles
+[  124.641332]     4      1927 cycles
+[  124.641334]     8      3812 cycles
+[  124.641338]    16      7570 cycles
+[  124.641345]    32     15094 cycles
+[  124.641358]    64     30148 cycles
+[  124.641383]   128     60282 cycles
+[  124.641432]   256    120524 cycles
+[  124.641530]   512    241012 cycles
+[  124.641725]  1024    482006 cycles
+[  124.642251]  2048   1309679 cycles
+[  124.643311]  4096   2637697 cycles
+[  124.645429]  8192   5275385 cycles
+[  124.649665] 16384  10550742 cycles
+[  124.658135] 32768  21101466 cycles
+[  124.658136] <1> Finished vmxon
+[  124.658137] <1> Machine in vmxon: Attempting vmxoff
+[  124.658138] <1> vmxoff complete
+[  124.658138] <1> turned off cr4.vmxe
+[  124.658139] <1> freeing allocated vmcs region!
+[  124.658140] <1> freeing allocated io bitmapA region!
+[  124.658140] <1> freeing allocated io bitmapB region!
+[  124.658141] <1> freeing allocated msr bitmap region!
+[  124.658142] <1> freeing allocated virtual apic page region!
+[  124.658143] <1> freeing allocated vmxon region!
+[  124.658143] <1> Enable interrupts
+[  124.658174] <1> Interrupts enabled
+[  124.658381] BUG: unable to handle kernel paging request at 000000000000ffff
+[  124.658406] IP: [<000000000000ffff>] 0xffff
+[  124.658421] PGD 0 
+[  124.658429] Oops: 0010 [#1] SMP 
+[  124.658440] Modules linked in: vmlaunch_simple(OF+) arc4 intel_rapl x86_pkg_temp_thermal intel_powerclamp coretemp kvm_intel iwlmvm kvm mac80211 snd_hda_codec_realtek snd_hda_codec_hdmi dm_crypt snd_hda_intel crct10dif_pclmul crc32_pclmul uvcvideo ghash_clmulni_intel videobuf2_vmalloc joydev snd_hda_codec aesni_intel videobuf2_memops videobuf2_core hid_multitouch videodev aes_x86_64 lrw snd_hwdep snd_pcm gf128mul thinkpad_acpi iwlwifi snd_page_alloc dm_multipath nvram glue_helper snd_seq_midi ablk_helper scsi_dh cfg80211 cryptd rtsx_pci_ms snd_seq_midi_event memstick snd_rawmidi psmouse snd_seq bnep snd_seq_device mei_me btusb snd_timer mei serio_raw rfcomm lpc_ich snd intel_rst intel_smartconnect bluetooth mac_hid soundcore parport_pc ppdev lp parport squashfs overlayfs nls_utf8 isofs nls_iso8859_1 dm_mirror dm_region_hash dm_log usbhid hid usb_storage rtsx_pci_sdmmc i915 e1000e i2c_algo_bit drm_kms_helper ptp pps_core ahci drm libahci rtsx_pci wmi video
+[  124.658738] CPU: 0 PID: 4942 Comm: insmod Tainted: GF          O 3.13.0-24-generic #46-Ubuntu
+[  124.658762] Hardware name: LENOVO 20B7S17501/20B7S17501, BIOS GJET67WW (2.17 ) 12/10/2013
+[  124.658786] task: ffff8800c768c7d0 ti: ffff8800909d8000 task.ti: ffff8800909d8000
+[  124.658807] RIP: 0010:[<000000000000ffff>]  [<000000000000ffff>] 0xffff
+[  124.658828] RSP: 0018:ffff8800909d9d30  EFLAGS: 00010282
+[  124.658843] RAX: 0000000000000000 RBX: 0000000000000006 RCX: 0000000000002c4a
+[  124.658863] RDX: 00000000000071a6 RSI: 0000000071a871a6 RDI: 0000000000000246
+[  124.658884] RBP: 0000000000000000 R08: 0000000000000082 R09: 0000000000000402
+[  124.658904] R10: 0000000000000000 R11: ffff8800909d9a9e R12: 0000001000000000
+[  124.658924] R13: ffff880100000000 R14: 0000000000000001 R15: ffffffffa0573020
+[  124.658944] FS:  00007f0eb47b7740(0000) GS:ffff88011e200000(0000) knlGS:0000000000000000
+[  124.658967] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[  124.658984] CR2: 000000000000ffff CR3: 00000000814cf000 CR4: 00000000001407f0
+[  124.659004] DR0: 0000000000000000 DR1: 0000000000000000 DR2: 0000000000000000
+[  124.659024] DR3: 0000000000000000 DR6: 00000000fffe0ff0 DR7: 0000000000000400
+[  124.659044] Stack:
+[  124.659050]  ffffffffa0570180 ffffffffa0573070 ffff8800909d9db8 ffffffff8100214a
+[  124.659074]  0000000000000000 ffffffffa0573070 0000000000000001 ffffffffa0573020
+[  124.659097]  ffff8800909d9d90 ffffffff810598d3 0000000000000000 ffffffffa0037000
+[  124.659120] Call Trace:
+[  124.659130]  [<ffffffffa0570180>] ? vmxoff_finish+0x25/0x25 [vmlaunch_simple]
+[  124.659153]  [<ffffffff8100214a>] ? do_one_initcall+0xfa/0x1b0
+[  124.659172]  [<ffffffff810598d3>] ? set_memory_nx+0x43/0x50
+[  124.659191]  [<ffffffff810e1d4d>] ? load_module+0x12dd/0x1b40
+[  124.659210]  [<ffffffff810dd7d0>] ? store_uevent+0x40/0x40
+[  124.659227]  [<ffffffff810e2726>] ? SyS_finit_module+0x86/0xb0
+[  124.659244]  [<ffffffff8172663f>] ? tracesys+0xe1/0xe6
+[  124.659259] Code:  Bad RIP value.
+[  124.659269] RIP  [<000000000000ffff>] 0xffff
+[  124.659284]  RSP <ffff8800909d9d30>
+[  124.659294] CR2: 000000000000ffff
+[  124.664139] ---[ end trace 37a360c2fc0e3058 ]---
