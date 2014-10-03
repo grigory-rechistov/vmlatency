@@ -1,0 +1,151 @@
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 42
+model name	: Intel(R) Core(TM) i5-2400S CPU @ 2.50GHz
+stepping	: 7
+microcode	: 0x25
+cpu MHz		: 2501.000
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 1
+core id		: 0
+cpu cores	: 1
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx lahf_lm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid
+bogomips	: 4988.68
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+Distributor ID:	Ubuntu
+Description:	Ubuntu 14.04 LTS
+Release:	14.04
+Codename:	trusty
+Dmesg output
+[   14.825492] cfg80211:   (2402000 KHz - 2472000 KHz @ 40000 KHz), (300 mBi, 2000 mBm)
+[   14.825493] cfg80211:   (2457000 KHz - 2482000 KHz @ 40000 KHz), (300 mBi, 2000 mBm)
+[   14.825495] cfg80211:   (2474000 KHz - 2494000 KHz @ 20000 KHz), (300 mBi, 2000 mBm)
+[   14.825496] cfg80211:   (5170000 KHz - 5250000 KHz @ 40000 KHz), (300 mBi, 2000 mBm)
+[   14.825497] cfg80211:   (5735000 KHz - 5835000 KHz @ 40000 KHz), (300 mBi, 2000 mBm)
+[   14.975677] ieee80211 phy0: rt2x00_set_rt: Info - RT chipset 5390, rev 0502 detected
+[   14.979266] ieee80211 phy0: rt2x00_set_rf: Info - RF chipset 5390 detected
+[   15.028349] ieee80211 phy0: Selected rate control algorithm 'minstrel_ht'
+[   15.914904] ieee80211 phy0: rt2x00lib_request_firmware: Info - Loading firmware file 'rt2860.bin'
+[   15.936939] ieee80211 phy0: rt2x00lib_request_firmware: Info - Firmware detected - version: 0.34
+[   16.073590] IPv6: ADDRCONF(NETDEV_UP): wlan0: link is not ready
+[   16.073853] IPv6: ADDRCONF(NETDEV_UP): wlan0: link is not ready
+[   16.171400] r8169 0000:07:00.0 eth0: link down
+[   16.171448] IPv6: ADDRCONF(NETDEV_UP): eth0: link is not ready
+[   16.171807] IPv6: ADDRCONF(NETDEV_UP): eth0: link is not ready
+[   16.291233] init: alsa-restore main process (1615) terminated with status 99
+[   17.138395] init: plymouth-upstart-bridge main process ended, respawning
+[   17.142570] init: plymouth-upstart-bridge main process (2209) terminated with status 1
+[   17.142582] init: plymouth-upstart-bridge main process ended, respawning
+[   59.959427] usb 2-1.1: new high-speed USB device number 7 using ehci-pci
+[   60.063427] usb 2-1.1: New USB device found, idVendor=0930, idProduct=6545
+[   60.063433] usb 2-1.1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[   60.063436] usb 2-1.1: Product: TransMemory     
+[   60.063438] usb 2-1.1: Manufacturer: TOSHIBA 
+[   60.063441] usb 2-1.1: SerialNumber: 5B850A00001A
+[   60.063671] usb-storage 2-1.1:1.0: USB Mass Storage device detected
+[   60.063985] scsi7 : usb-storage 2-1.1:1.0
+[   61.097101] scsi 7:0:0:0: Direct-Access     TOSHIBA  TransMemory      PMAP PQ: 0 ANSI: 0 CCS
+[   61.097394] sd 7:0:0:0: Attached scsi generic sg3 type 0
+[   62.107016] sd 7:0:0:0: [sdc] 3921920 512-byte logical blocks: (2.00 GB/1.87 GiB)
+[   62.107741] sd 7:0:0:0: [sdc] Write Protect is off
+[   62.107744] sd 7:0:0:0: [sdc] Mode Sense: 23 00 00 00
+[   62.108347] sd 7:0:0:0: [sdc] No Caching mode page found
+[   62.108349] sd 7:0:0:0: [sdc] Assuming drive cache: write through
+[   62.112483] sd 7:0:0:0: [sdc] No Caching mode page found
+[   62.112487] sd 7:0:0:0: [sdc] Assuming drive cache: write through
+[   62.154328]  sdc: sdc1
+[   62.157298] sd 7:0:0:0: [sdc] No Caching mode page found
+[   62.157301] sd 7:0:0:0: [sdc] Assuming drive cache: write through
+[   62.157303] sd 7:0:0:0: [sdc] Attached SCSI removable disk
+[   96.957297] FAT-fs (sdc1): Volume was not properly unmounted. Some data may be corrupt. Please run fsck.
+[  108.227946] kvm: disabling virtualization on CPU1
+[  108.330658] smpboot: CPU 1 is now offline
+[  108.350963] Broke affinity for irq 48
+[  108.351983] kvm: disabling virtualization on CPU2
+[  108.454824] smpboot: CPU 2 is now offline
+[  108.475207] Broke affinity for irq 18
+[  108.476266] kvm: disabling virtualization on CPU3
+[  108.476289] smpboot: CPU 3 is now offline
+[  108.960346] vmlaunch_simple: module verification failed: signature and/or  required key missing - tainting kernel
+[  108.964233] <1> In vmxon
+[  108.964236] <1> VMX supported CPU.
+[  108.964236] MSR 0x3A:Lock bit is on.VMXON bit is on.OK
+[  108.964237] <1> turned on cr4.vmxe
+[  108.964241] <1> Performing initial VMLAUNCH
+[  108.964243] <1> Going to do max 33000 iterations VMRESUME/VMEXIT
+[  108.964244] # iter    cycles
+[  108.964245]     1       630 cycles
+[  108.964247]     2      1194 cycles
+[  108.964248]     4      2358 cycles
+[  108.964251]     8      4676 cycles
+[  108.964256]    16      9315 cycles
+[  108.964264]    32     18588 cycles
+[  108.964280]    64     37115 cycles
+[  108.964311]   128     74230 cycles
+[  108.964371]   256    148418 cycles
+[  108.964491]   512    296736 cycles
+[  108.964730]  1024    593546 cycles
+[  108.965207]  2048   1187064 cycles
+[  108.966161]  4096   2373715 cycles
+[  108.968213]  8192   5110916 cycles
+[  108.972801] 16384  11429006 cycles
+[  108.981977] 32768  22857994 cycles
+[  108.981977] <1> Finished vmxon
+[  108.981978] <1> Machine in vmxon: Attempting vmxoff
+[  108.981979] <1> vmxoff complete
+[  108.981980] <1> turned off cr4.vmxe
+[  108.981980] <1> freeing allocated vmcs region!
+[  108.981981] <1> freeing allocated io bitmapA region!
+[  108.981982] <1> freeing allocated io bitmapB region!
+[  108.981982] <1> freeing allocated msr bitmap region!
+[  108.981983] <1> freeing allocated virtual apic page region!
+[  108.981984] <1> freeing allocated vmxon region!
+[  108.981985] <1> Enable interrupts
+[  108.982004] <1> Interrupts enabled
+[  108.982200] BUG: unable to handle kernel paging request at 000000000000ffff
+[  108.982226] IP: [<000000000000ffff>] 0xffff
+[  108.982241] PGD 0 
+[  108.982248] Oops: 0010 [#1] SMP 
+[  108.982260] Modules linked in: vmlaunch_simple(OF+) nls_iso8859_1 intel_rapl arc4 rt2800pci x86_pkg_temp_thermal rt2800mmio rt2800lib intel_powerclamp rt2x00pci rt2x00mmio rt2x00lib dm_crypt uvcvideo coretemp mac80211 snd_hda_codec_idt kvm_intel snd_hda_intel videobuf2_vmalloc videobuf2_memops snd_hda_codec kvm videobuf2_core gpio_ich videodev snd_hwdep snd_pcm crct10dif_pclmul cfg80211 crc32_pclmul ghash_clmulni_intel aesni_intel snd_page_alloc aes_x86_64 snd_seq_midi lrw snd_seq_midi_event dm_multipath snd_rawmidi gf128mul scsi_dh glue_helper eeprom_93cx6 snd_seq rtsx_pci_ms crc_ccitt ablk_helper cryptd snd_seq_device serio_raw memstick snd_timer mei_me mei lpc_ich rfcomm bnep snd parport_pc soundcore ppdev bluetooth mac_hid lp parport squashfs overlayfs nls_utf8 isofs dm_mirror dm_region_hash dm_log hid_generic usbhid hid usb_storage rtsx_pci_sdmmc mxm_wmi i915 ahci r8169 libahci i2c_algo_bit mii drm_kms_helper rtsx_pci drm wmi video
+[  108.982540] CPU: 0 PID: 4763 Comm: insmod Tainted: GF          O 3.13.0-24-generic #46-Ubuntu
+[  108.982563] Hardware name: Hewlett-Packard HP TouchSmart 7320 Lavaca-B EU L6 PC/2AC3, BIOS 7.12 03/29/2012
+[  108.982589] task: ffff8800918f2fe0 ti: ffff88007b13e000 task.ti: ffff88007b13e000
+[  108.982609] RIP: 0010:[<000000000000ffff>]  [<000000000000ffff>] 0xffff
+[  108.982628] RSP: 0018:ffff88007b13fd30  EFLAGS: 00010282
+[  108.982642] RAX: 0000000000000000 RBX: 0000000000000000 RCX: 0000000000001d5a
+[  108.982661] RDX: 00000000000052fe RSI: 00000000530052fe RDI: 0000000000000246
+[  108.982680] RBP: 0000000000000000 R08: 0000000000000082 R09: 000000000000037e
+[  108.982699] R10: 0000000000000000 R11: ffff88007b13fa9e R12: 0000001000000000
+[  108.982718] R13: ffff880100000000 R14: 0000000000000001 R15: ffffffffa0569020
+[  108.982737] FS:  00007f8f395f1740(0000) GS:ffff88013f400000(0000) knlGS:0000000000000000
+[  108.982759] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[  108.982774] CR2: 000000000000ffff CR3: 000000007b860000 CR4: 00000000000407f0
+[  108.982793] Stack:
+[  108.982800]  ffffffffa0566180 ffffffffa0569070 ffff88007b13fdb8 ffffffff8100214a
+[  108.982821]  0000000000000000 ffffffffa0569070 0000000000000001 ffffffffa0569020
+[  108.982843]  ffff88007b13fd90 ffffffff810598d3 0000000000000000 ffffffffa00af000
+[  108.982864] Call Trace:
+[  108.982876]  [<ffffffffa0566180>] ? vmxoff_finish+0x25/0x25 [vmlaunch_simple]
+[  108.982897]  [<ffffffff8100214a>] ? do_one_initcall+0xfa/0x1b0
+[  108.982915]  [<ffffffff810598d3>] ? set_memory_nx+0x43/0x50
+[  108.982934]  [<ffffffff810e1d4d>] ? load_module+0x12dd/0x1b40
+[  108.982951]  [<ffffffff810dd7d0>] ? store_uevent+0x40/0x40
+[  108.982967]  [<ffffffff810e2726>] ? SyS_finit_module+0x86/0xb0
+[  108.982985]  [<ffffffff8172663f>] ? tracesys+0xe1/0xe6
+[  108.982999] Code:  Bad RIP value.
+[  108.983009] RIP  [<000000000000ffff>] 0xffff
+[  108.983022]  RSP <ffff88007b13fd30>
+[  108.983032] CR2: 000000000000ffff
+[  108.989962] ---[ end trace eeefc2314ae6c37f ]---
