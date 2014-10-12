@@ -1,0 +1,151 @@
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 23
+model name	: Intel(R) Core(TM)2 Duo CPU     E8400  @ 3.00GHz
+stepping	: 10
+microcode	: 0xa07
+cpu MHz		: 3000.000
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 1
+core id		: 0
+cpu cores	: 1
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx lm constant_tsc arch_perfmon pebs bts rep_good nopl aperfmperf pni dtes64 monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr pdcm sse4_1 xsave lahf_lm dtherm tpr_shadow vnmi flexpriority
+bogomips	: 6000.32
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+Distributor ID:	Ubuntu
+Description:	Ubuntu 14.04 LTS
+Release:	14.04
+Codename:	trusty
+Dmesg output
+[   17.921493] cfg80211:   (57240000 KHz - 59400000 KHz @ 2160000 KHz), (N/A, 2800 mBm)
+[   17.921495] cfg80211:   (59400000 KHz - 63720000 KHz @ 2160000 KHz), (N/A, 4400 mBm)
+[   17.921496] cfg80211:   (63720000 KHz - 65880000 KHz @ 2160000 KHz), (N/A, 2800 mBm)
+[   18.104926] set resolution quirk: cval->res = 384
+[   18.105214] usbcore: registered new interface driver snd-usb-audio
+[   18.105351] uvcvideo: Found UVC 1.00 device <unnamed> (046d:0825)
+[   18.123758] input: UVC Camera (046d:0825) as /devices/pci0000:00/0000:00:1e.0/0000:06:02.2/usb3/3-4/3-4:1.0/input/input15
+[   18.123992] usbcore: registered new interface driver uvcvideo
+[   18.123994] USB Video Class driver (1.1.1)
+[   18.170850] input: ImPS/2 Logitech Wheel Mouse as /devices/platform/i8042/serio1/input/input14
+[   18.775256] IPv6: ADDRCONF(NETDEV_UP): wlan0: link is not ready
+[   18.775681] IPv6: ADDRCONF(NETDEV_UP): wlan0: link is not ready
+[   18.785282] r8169 0000:05:00.0 eth1: link down
+[   18.785347] IPv6: ADDRCONF(NETDEV_UP): eth1: link is not ready
+[   18.785857] IPv6: ADDRCONF(NETDEV_UP): eth1: link is not ready
+[   18.788912] eth0:  setting half-duplex.
+[   18.788982] IPv6: ADDRCONF(NETDEV_UP): eth0: link is not ready
+[   18.789754] IPv6: ADDRCONF(NETDEV_UP): eth0: link is not ready
+[   18.856847] init: alsa-restore main process (1957) terminated with status 99
+[   20.930018] init: plymouth-upstart-bridge main process ended, respawning
+[   20.939032] init: plymouth-upstart-bridge main process (2505) terminated with status 1
+[   20.939045] init: plymouth-upstart-bridge main process ended, respawning
+[   22.322073] usblp 1-1:1.0: usblp0: USB Bidirectional printer dev 2 if 0 alt 0 proto 2 vid 0x03F0 pid 0x2B17
+[   22.322107] usbcore: registered new interface driver usblp
+[   22.571750] usblp0: removed
+[   28.273415] pci 0000:00:1e.0: System wakeup enabled by ACPI
+[   48.276036] usb 2-1: new high-speed USB device number 4 using ehci-pci
+[   48.419819] usb 2-1: New USB device found, idVendor=0930, idProduct=6545
+[   48.419823] usb 2-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[   48.419825] usb 2-1: Product: TransMemory     
+[   48.419831] usb 2-1: Manufacturer: TOSHIBA 
+[   48.419832] usb 2-1: SerialNumber: 5B850A00001A
+[   48.420977] usb-storage 2-1:1.0: USB Mass Storage device detected
+[   48.421321] scsi8 : usb-storage 2-1:1.0
+[   49.451262] scsi 8:0:0:0: Direct-Access     TOSHIBA  TransMemory      PMAP PQ: 0 ANSI: 0 CCS
+[   49.456469] sd 8:0:0:0: Attached scsi generic sg9 type 0
+[   50.775001] sd 8:0:0:0: [sdi] 3921920 512-byte logical blocks: (2.00 GB/1.87 GiB)
+[   50.775619] sd 8:0:0:0: [sdi] Write Protect is off
+[   50.775621] sd 8:0:0:0: [sdi] Mode Sense: 23 00 00 00
+[   50.776251] sd 8:0:0:0: [sdi] No Caching mode page found
+[   50.776254] sd 8:0:0:0: [sdi] Assuming drive cache: write through
+[   50.781624] sd 8:0:0:0: [sdi] No Caching mode page found
+[   50.781628] sd 8:0:0:0: [sdi] Assuming drive cache: write through
+[   50.823412]  sdi: sdi1
+[   51.015377] sd 8:0:0:0: [sdi] No Caching mode page found
+[   51.015383] sd 8:0:0:0: [sdi] Assuming drive cache: write through
+[   51.015386] sd 8:0:0:0: [sdi] Attached SCSI removable disk
+[   92.369212] kvm: disabling virtualization on CPU1
+[   92.369221] smpboot: CPU 1 is now offline
+[   93.969467] vmlaunch_simple: module verification failed: signature and/or  required key missing - tainting kernel
+[   93.970978] <1> In vmxon
+[   93.970980] <1> VMX supported CPU.
+[   93.970981] MSR 0x3A:Lock bit is on.VMXON bit is on.OK
+[   93.970982] <1> turned on cr4.vmxe
+[   93.970988] <1> Performing initial VMLAUNCH
+[   93.970990] <1> Going to do max 33000 iterations VMRESUME/VMEXIT
+[   93.970991] # iter    cycles
+[   93.970993]     1      1170 cycles
+[   93.970995]     2      2601 cycles
+[   93.970998]     4      5130 cycles
+[   93.971002]     8     10170 cycles
+[   93.971010]    16     20322 cycles
+[   93.971025]    32     40563 cycles
+[   93.971053]    64     81081 cycles
+[   93.971108]   128    162099 cycles
+[   93.971217]   256    324153 cycles
+[   93.971434]   512    648252 cycles
+[   93.971867]  1024   1296468 cycles
+[   93.972001]  2048   2592900 cycles
+[   93.972001]  4096   5185737 cycles
+[   93.972001]  8192  10371465 cycles
+[   93.972001] 16384  20742822 cycles
+[   93.972001] 32768  41485455 cycles
+[   93.972001] <1> Finished vmxon
+[   93.972001] <1> Machine in vmxon: Attempting vmxoff
+[   93.972001] <1> vmxoff complete
+[   93.972001] <1> turned off cr4.vmxe
+[   93.972001] <1> freeing allocated vmcs region!
+[   93.972001] <1> freeing allocated io bitmapA region!
+[   93.972001] <1> freeing allocated io bitmapB region!
+[   93.972001] <1> freeing allocated msr bitmap region!
+[   93.972001] <1> freeing allocated virtual apic page region!
+[   93.972001] <1> freeing allocated vmxon region!
+[   93.972001] <1> Enable interrupts
+[   93.998709] <1> Interrupts enabled
+[   94.004021] BUG: unable to handle kernel paging request at 000000000000ffff
+[   94.004036] IP: [<000000000000ffff>] 0xffff
+[   94.004044] PGD 0 
+[   94.004047] Oops: 0010 [#1] SMP 
+[   94.004052] Modules linked in: vmlaunch_simple(OF+) nls_iso8859_1 usblp arc4 gpio_ich dm_crypt coretemp kvm_intel kvm psmouse ath9k_htc serio_raw ath9k_common ath9k_hw snd_emu10k1_synth uvcvideo snd_usb_audio videobuf2_vmalloc ath videobuf2_memops videobuf2_core snd_emux_synth snd_seq_midi_emul snd_seq_virmidi snd_usbmidi_lib mac80211 joydev snd_emu10k1 videodev dm_multipath snd_hda_codec_realtek scsi_dh cfg80211 snd_hda_intel snd_util_mem snd_hda_codec snd_ac97_codec emu10k1_gp snd_hwdep ac97_bus snd_pcm gameport snd_seq_midi snd_seq_midi_event snd_rawmidi snd_page_alloc snd_seq snd_seq_device lpc_ich snd_timer snd rfcomm bnep mac_hid soundcore bluetooth parport_pc ppdev lp parport squashfs overlayfs nls_utf8 isofs hid_generic usbhid hid dm_mirror dm_region_hash dm_log usb_storage pata_acpi r8169 firewire_ohci nouveau mxm_wmi wmi video i2c_algo_bit 3c59x ttm mii drm_kms_helper firewire_core drm crc_itu_t pata_jmicron
+[   94.004158] CPU: 0 PID: 5175 Comm: insmod Tainted: GF          O 3.13.0-24-generic #46-Ubuntu
+[   94.004163] Hardware name: Gigabyte Technology Co., Ltd. EP35-DS3L/EP35-DS3L, BIOS F6a 07/29/2008
+[   94.004168] task: ffff8800db395fc0 ti: ffff880072cc4000 task.ti: ffff880072cc4000
+[   94.004172] RIP: 0010:[<000000000000ffff>]  [<000000000000ffff>] 0xffff
+[   94.004178] RSP: 0018:ffff880072cc5d30  EFLAGS: 00010282
+[   94.004181] RAX: 0000000000000000 RBX: 0000000000000006 RCX: 00000000000027b0
+[   94.004185] RDX: 0000000000007270 RSI: 0000000072727270 RDI: 0000000000000246
+[   94.004189] RBP: 0000000000000000 R08: 0000000000000082 R09: 0000000000000474
+[   94.004193] R10: 0000000000000000 R11: ffff880072cc5a9e R12: 0000001000000000
+[   94.004197] R13: ffff880100000000 R14: 0000000000000001 R15: ffffffffa0608020
+[   94.004201] FS:  00007f4acaaa2740(0000) GS:ffff88011fc00000(0000) knlGS:0000000000000000
+[   94.004206] CS:  0010 DS: 0000 ES: 0000 CR0: 000000008005003b
+[   94.004210] CR2: 000000000000ffff CR3: 00000000db831000 CR4: 00000000000407f0
+[   94.004214] Stack:
+[   94.004216]  ffffffffa0605180 ffffffffa0608070 ffff880072cc5db8 ffffffff8100214a
+[   94.004223]  0000000000000000 ffffffffa0608070 0000000000000001 ffffffffa0608020
+[   94.004229]  ffff880072cc5d90 ffffffff810598d3 0000000000000000 ffffffffa000e000
+[   94.004235] Call Trace:
+[   94.004241]  [<ffffffffa0605180>] ? vmxoff_finish+0x25/0x25 [vmlaunch_simple]
+[   94.004248]  [<ffffffff8100214a>] ? do_one_initcall+0xfa/0x1b0
+[   94.004254]  [<ffffffff810598d3>] ? set_memory_nx+0x43/0x50
+[   94.004260]  [<ffffffff810e1d4d>] ? load_module+0x12dd/0x1b40
+[   94.004265]  [<ffffffff810dd7d0>] ? store_uevent+0x40/0x40
+[   94.004270]  [<ffffffff810e2726>] ? SyS_finit_module+0x86/0xb0
+[   94.004276]  [<ffffffff8172663f>] ? tracesys+0xe1/0xe6
+[   94.004279] Code:  Bad RIP value.
+[   94.004285] RIP  [<000000000000ffff>] 0xffff
+[   94.004290]  RSP <ffff880072cc5d30>
+[   94.004293] CR2: 000000000000ffff
+[   94.006176] ---[ end trace 42f72a841c82b317 ]---
