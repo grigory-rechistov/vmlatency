@@ -1,0 +1,151 @@
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 58
+model name	: Intel(R) Celeron(R) CPU 1007U @ 1.50GHz
+stepping	: 9
+microcode	: 0x16
+cpu MHz		: 1500.000
+cache size	: 2048 KB
+physical id	: 0
+siblings	: 1
+core id		: 0
+cpu cores	: 1
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer xsave lahf_lm arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase smep erms
+bogomips	: 2993.10
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+Distributor ID:	Ubuntu
+Description:	Ubuntu 14.04 LTS
+Release:	14.04
+Codename:	trusty
+Dmesg output
+[   22.693018] intel_rapl: domain uncore energy ctr 197368:197368 not working, skip
+[   22.807847] asus_wmi: ASUS WMI generic driver loaded
+[   22.810659] asus_wmi: Initialization: 0x1
+[   22.810709] asus_wmi: BIOS WMI version: 7.9
+[   22.810762] asus_wmi: SFUN value: 0x4a0877
+[   22.822469] input: Asus WMI hotkeys as /devices/platform/asus-nb-wmi/input/input18
+[   22.915342] asus_wmi: Backlight controlled by ACPI video driver
+[   23.020476] cfg80211: World regulatory domain updated:
+[   23.020481] cfg80211:   (start_freq - end_freq @ bandwidth), (max_antenna_gain, max_eirp)
+[   23.020484] cfg80211:   (2402000 KHz - 2472000 KHz @ 40000 KHz), (300 mBi, 2000 mBm)
+[   23.020487] cfg80211:   (2457000 KHz - 2482000 KHz @ 40000 KHz), (300 mBi, 2000 mBm)
+[   23.020489] cfg80211:   (2474000 KHz - 2494000 KHz @ 20000 KHz), (300 mBi, 2000 mBm)
+[   23.020491] cfg80211:   (5170000 KHz - 5250000 KHz @ 40000 KHz), (300 mBi, 2000 mBm)
+[   23.020493] cfg80211:   (5735000 KHz - 5835000 KHz @ 40000 KHz), (300 mBi, 2000 mBm)
+[   23.619170] init: alsa-restore main process (1773) terminated with status 99
+[   24.126449] IPv6: ADDRCONF(NETDEV_UP): wlan0: link is not ready
+[   24.129746] IPv6: ADDRCONF(NETDEV_UP): wlan0: link is not ready
+[   24.251075] r8169 0000:03:00.2 eth0: link down
+[   24.251719] IPv6: ADDRCONF(NETDEV_UP): eth0: link is not ready
+[   24.252170] IPv6: ADDRCONF(NETDEV_UP): eth0: link is not ready
+[   25.002913] usb 1-1.1: USB disconnect, device number 5
+[   26.896304] init: plymouth-upstart-bridge main process ended, respawning
+[   26.908572] init: plymouth-upstart-bridge main process (2275) terminated with status 1
+[   26.908593] init: plymouth-upstart-bridge main process ended, respawning
+[   89.432452] usb 3-1: USB disconnect, device number 2
+[  100.920473] usb 3-1: new high-speed USB device number 4 using xhci_hcd
+[  100.948463] usb 3-1: New USB device found, idVendor=0930, idProduct=6545
+[  100.948468] usb 3-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[  100.948471] usb 3-1: Product: TransMemory     
+[  100.948474] usb 3-1: Manufacturer: TOSHIBA 
+[  100.948476] usb 3-1: SerialNumber: 5B850A00001A
+[  100.950102] usb-storage 3-1:1.0: USB Mass Storage device detected
+[  100.950235] scsi5 : usb-storage 3-1:1.0
+[  101.979198] scsi 5:0:0:0: Direct-Access     TOSHIBA  TransMemory      PMAP PQ: 0 ANSI: 0 CCS
+[  101.979607] sd 5:0:0:0: Attached scsi generic sg3 type 0
+[  102.784122] sd 5:0:0:0: [sdc] 3921920 512-byte logical blocks: (2.00 GB/1.87 GiB)
+[  102.784287] sd 5:0:0:0: [sdc] Write Protect is off
+[  102.784293] sd 5:0:0:0: [sdc] Mode Sense: 23 00 00 00
+[  102.784460] sd 5:0:0:0: [sdc] No Caching mode page found
+[  102.784464] sd 5:0:0:0: [sdc] Assuming drive cache: write through
+[  102.787309] sd 5:0:0:0: [sdc] No Caching mode page found
+[  102.787314] sd 5:0:0:0: [sdc] Assuming drive cache: write through
+[  102.829704]  sdc: sdc1
+[  102.830561] sd 5:0:0:0: [sdc] No Caching mode page found
+[  102.830566] sd 5:0:0:0: [sdc] Assuming drive cache: write through
+[  102.830570] sd 5:0:0:0: [sdc] Attached SCSI removable disk
+[  380.703950] Broke affinity for irq 42
+[  380.704993] kvm: disabling virtualization on CPU1
+[  380.807490] smpboot: CPU 1 is now offline
+[  382.105668] vmlaunch_simple: module verification failed: signature and/or  required key missing - tainting kernel
+[  382.107985] <1> In vmxon
+[  382.107989] <1> VMX supported CPU.
+[  382.107991] MSR 0x3A:Lock bit is on.VMXON bit is on.OK
+[  382.107993] <1> turned on cr4.vmxe
+[  382.108001] <1> Performing initial VMLAUNCH
+[  382.108004] <1> Going to do max 33000 iterations VMRESUME/VMEXIT
+[  382.108005] # iter    cycles
+[  382.108008]     1       804 cycles
+[  382.108011]     2      1584 cycles
+[  382.108015]     4      3172 cycles
+[  382.108021]     8      6216 cycles
+[  382.108031]    16     12276 cycles
+[  382.108049]    32     24508 cycles
+[  382.108084]    64     48944 cycles
+[  382.108151]   128     97876 cycles
+[  382.108284]   256    196812 cycles
+[  382.108550]   512    395256 cycles
+[  382.109078]  1024    787232 cycles
+[  382.110291]  2048   1813468 cycles
+[  382.112834]  4096   3804228 cycles
+[  382.117918]  8192   7608372 cycles
+[  382.128084] 16384  15216692 cycles
+[  382.148414] 32768  30433332 cycles
+[  382.148415] <1> Finished vmxon
+[  382.148417] <1> Machine in vmxon: Attempting vmxoff
+[  382.148418] <1> vmxoff complete
+[  382.148420] <1> turned off cr4.vmxe
+[  382.148421] <1> freeing allocated vmcs region!
+[  382.148423] <1> freeing allocated io bitmapA region!
+[  382.148424] <1> freeing allocated io bitmapB region!
+[  382.148426] <1> freeing allocated msr bitmap region!
+[  382.148427] <1> freeing allocated virtual apic page region!
+[  382.148429] <1> freeing allocated vmxon region!
+[  382.148430] <1> Enable interrupts
+[  382.148452] <1> Interrupts enabled
+[  382.148851] BUG: unable to handle kernel paging request at 000000000000ffff
+[  382.148900] IP: [<000000000000ffff>] 0xffff
+[  382.148929] PGD 0 
+[  382.148943] Oops: 0010 [#1] SMP 
+[  382.148966] Modules linked in: vmlaunch_simple(OF+) msr nls_iso8859_1 asus_nb_wmi asus_wmi dm_crypt sparse_keymap intel_rapl snd_hda_codec_hdmi x86_pkg_temp_thermal intel_powerclamp arc4 snd_hda_codec_realtek coretemp ath9k kvm_intel snd_hda_intel ath9k_common kvm snd_hda_codec uvcvideo ath9k_hw videobuf2_vmalloc crct10dif_pclmul crc32_pclmul videobuf2_memops snd_hwdep videobuf2_core ghash_clmulni_intel snd_pcm cryptd videodev ath joydev mac80211 snd_page_alloc cfg80211 snd_seq_midi snd_seq_midi_event psmouse dm_multipath snd_rawmidi serio_raw scsi_dh ath3k snd_seq btusb rfcomm bnep snd_seq_device bluetooth snd_timer snd mei_me mac_hid mei lpc_ich soundcore parport_pc ppdev lp parport squashfs overlayfs nls_utf8 isofs dm_mirror dm_region_hash dm_log usb_storage hid_generic usbhid hid ahci r8169 libahci mii wmi i915 i2c_algo_bit video drm_kms_helper drm
+[  382.149496] CPU: 0 PID: 4908 Comm: insmod Tainted: GF          O 3.13.0-24-generic #46-Ubuntu
+[  382.149544] Hardware name: ASUSTeK COMPUTER INC. X551CAP/X551CAP, BIOS X551CAP.206 10/23/2013
+[  382.149593] task: ffff880095f38000 ti: ffff880072246000 task.ti: ffff880072246000
+[  382.149635] RIP: 0010:[<000000000000ffff>]  [<000000000000ffff>] 0xffff
+[  382.149676] RSP: 0018:ffff880072247d30  EFLAGS: 00010282
+[  382.149706] RAX: 0000000000000000 RBX: 0000000000000000 RCX: 00000000000028ce
+[  382.149745] RDX: 00000000000079b4 RSI: 0000000079b679b4 RDI: 0000000000000246
+[  382.149785] RBP: 0000000000000000 R08: 0000000000000082 R09: 0000000000000499
+[  382.149824] R10: 0000000000000000 R11: ffff880072247a9e R12: 0000001000000000
+[  382.149864] R13: ffff880100000000 R14: 0000000000000001 R15: ffffffffa06bc020
+[  382.149904] FS:  00007f64e9e1a740(0000) GS:ffff88011ee00000(0000) knlGS:0000000000000000
+[  382.149949] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[  382.149981] CR2: 0000000000de5000 CR3: 0000000095cac000 CR4: 00000000001407f0
+[  382.150021] Stack:
+[  382.150033]  ffffffffa06b9180 ffffffffa06bc070 ffff880072247db8 ffffffff8100214a
+[  382.150079]  0000000000000000 ffffffffa06bc070 0000000000000001 ffffffffa06bc020
+[  382.150124]  ffff880072247d90 ffffffff810598d3 0000000000000000 ffffffffa0065000
+[  382.150169] Call Trace:
+[  382.150190]  [<ffffffffa06b9180>] ? vmxoff_finish+0x25/0x25 [vmlaunch_simple]
+[  382.150234]  [<ffffffff8100214a>] ? do_one_initcall+0xfa/0x1b0
+[  382.150270]  [<ffffffff810598d3>] ? set_memory_nx+0x43/0x50
+[  382.150306]  [<ffffffff810e1d4d>] ? load_module+0x12dd/0x1b40
+[  382.150342]  [<ffffffff810dd7d0>] ? store_uevent+0x40/0x40
+[  382.150376]  [<ffffffff810e2726>] ? SyS_finit_module+0x86/0xb0
+[  382.150413]  [<ffffffff8172663f>] ? tracesys+0xe1/0xe6
+[  382.150442] Code:  Bad RIP value.
+[  382.150464] RIP  [<000000000000ffff>] 0xffff
+[  382.150492]  RSP <ffff880072247d30>
+[  382.150512] CR2: 000000000000ffff
+[  382.158264] ---[ end trace 84762b2831db7fb8 ]---
