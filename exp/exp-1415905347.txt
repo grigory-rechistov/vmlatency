@@ -1,0 +1,151 @@
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 60
+model name	: Intel(R) Core(TM) i5-4300M CPU @ 2.60GHz
+stepping	: 3
+microcode	: 0x1a
+cpu MHz		: 2601.000
+cache size	: 3072 KB
+physical id	: 0
+siblings	: 1
+core id		: 0
+cpu cores	: 1
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm
+bogomips	: 5187.98
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+Distributor ID:	Ubuntu
+Description:	Ubuntu 14.04 LTS
+Release:	14.04
+Codename:	trusty
+Dmesg output
+[ 4827.059198] smpboot: Booting Node 0 Processor 2 APIC 0x2
+[ 4827.073495] CPU2 is up
+[ 4827.073511] smpboot: Booting Node 0 Processor 3 APIC 0x3
+[ 4827.087779] CPU3 is up
+[ 4827.091094] ACPI: Waking up from system sleep state S3
+[ 4827.168224] acpi LNXPOWER:02: Turning OFF
+[ 4827.188734] xhci_hcd 0000:00:14.0: System wakeup disabled by ACPI
+[ 4827.216748] ehci-pci 0000:00:1a.0: System wakeup disabled by ACPI
+[ 4827.224753] ehci-pci 0000:00:1d.0: System wakeup disabled by ACPI
+[ 4827.272927] PM: noirq resume of devices complete after 104.550 msecs
+[ 4827.273031] PM: early resume of devices complete after 0.085 msecs
+[ 4827.273104] usb usb3: root hub lost power or was reset
+[ 4827.273106] usb usb4: root hub lost power or was reset
+[ 4827.273118] snd_hda_intel 0000:00:03.0: irq 40 for MSI/MSI-X
+[ 4827.273333] xhci_hcd 0000:00:14.0: irq 41 for MSI/MSI-X
+[ 4827.273436] mei_me 0000:00:16.0: irq 45 for MSI/MSI-X
+[ 4827.273451] e1000e 0000:00:19.0: System wakeup disabled by ACPI
+[ 4827.273479] e1000e 0000:00:19.0: irq 47 for MSI/MSI-X
+[ 4827.273819] snd_hda_intel 0000:00:1b.0: irq 48 for MSI/MSI-X
+[ 4827.304830] tpm_tis 00:09: TPM is disabled/deactivated (0x6)
+[ 4827.496934] usb 1-1: reset high-speed USB device number 2 using ehci-pci
+[ 4827.604988] ata6: SATA link down (SStatus 0 SControl 300)
+[ 4827.741110] usb 2-1: reset high-speed USB device number 2 using ehci-pci
+[ 4827.985325] usb 3-12: reset high-speed USB device number 4 using xhci_hcd
+[ 4828.060211] xhci_hcd 0000:00:14.0: xHCI xhci_drop_endpoint called with disabled ep ffff88020d948b00
+[ 4828.169349] usb 3-7: reset full-speed USB device number 2 using xhci_hcd
+[ 4828.186241] xhci_hcd 0000:00:14.0: xHCI xhci_drop_endpoint called with disabled ep ffff880036064a00
+[ 4828.186243] xhci_hcd 0000:00:14.0: xHCI xhci_drop_endpoint called with disabled ep ffff880036064a40
+[ 4828.186244] xhci_hcd 0000:00:14.0: xHCI xhci_drop_endpoint called with disabled ep ffff880036064a80
+[ 4828.186245] xhci_hcd 0000:00:14.0: xHCI xhci_drop_endpoint called with disabled ep ffff880036064ac0
+[ 4828.297475] usb 3-11: reset full-speed USB device number 3 using xhci_hcd
+[ 4828.314020] xhci_hcd 0000:00:14.0: xHCI xhci_drop_endpoint called with disabled ep ffff88020d8c0480
+[ 4828.314021] xhci_hcd 0000:00:14.0: xHCI xhci_drop_endpoint called with disabled ep ffff88020d8c04c0
+[ 4828.314022] xhci_hcd 0000:00:14.0: xHCI xhci_drop_endpoint called with disabled ep ffff88020d8c0500
+[ 4828.314023] xhci_hcd 0000:00:14.0: xHCI xhci_drop_endpoint called with disabled ep ffff88020d6d2900
+[ 4828.314024] xhci_hcd 0000:00:14.0: xHCI xhci_drop_endpoint called with disabled ep ffff88020d6d2940
+[ 4828.753703] [drm] Enabling RC6 states: RC6 on, RC6p off, RC6pp off
+[ 4829.726324] ata1: SATA link up 6.0 Gbps (SStatus 133 SControl 300)
+[ 4829.727744] ata1.00: ACPI cmd ef/02:00:00:00:00:a0 (SET FEATURES) succeeded
+[ 4829.727746] ata1.00: ACPI cmd f5/00:00:00:00:00:a0 (SECURITY FREEZE LOCK) filtered out
+[ 4829.730731] ata1.00: ACPI cmd ef/02:00:00:00:00:a0 (SET FEATURES) succeeded
+[ 4829.730733] ata1.00: ACPI cmd f5/00:00:00:00:00:a0 (SECURITY FREEZE LOCK) filtered out
+[ 4829.732250] ata1.00: configured for UDMA/100
+[ 4829.746320] sd 0:0:0:0: [sda] Starting disk
+[ 4829.753874] iwlwifi 0000:04:00.0: L1 Enabled; Disabling L0S
+[ 4829.754115] iwlwifi 0000:04:00.0: L1 Enabled; Disabling L0S
+[ 4829.767235] PM: resume of devices complete after 2492.673 msecs
+[ 4829.767685] PM: Finishing wakeup.
+[ 4829.767686] Restarting tasks ... done.
+[ 4829.788407] video LNXVIDEO:00: Restoring backlight state
+[ 4829.791441] Bluetooth: hci0: read Intel version: 370710018002030d00
+[ 4829.791500] Bluetooth: hci0: Intel Bluetooth firmware file: intel/ibt-hw-37.7.10-fw-1.80.2.3.d.bseq
+[ 4829.903546] Bluetooth: hci0: Intel Bluetooth firmware patch completed and activated
+[ 4843.134671] usb 3-1: new high-speed USB device number 6 using xhci_hcd
+[ 4843.163452] usb 3-1: New USB device found, idVendor=0930, idProduct=6545
+[ 4843.163462] usb 3-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 4843.163467] usb 3-1: Product: TransMemory     
+[ 4843.163472] usb 3-1: Manufacturer: TOSHIBA 
+[ 4843.163475] usb 3-1: SerialNumber: 5B850A00001A
+[ 4843.164171] usb-storage 3-1:1.0: USB Mass Storage device detected
+[ 4843.164330] scsi7 : usb-storage 3-1:1.0
+[ 4844.194693] scsi 7:0:0:0: Direct-Access     TOSHIBA  TransMemory      PMAP PQ: 0 ANSI: 0 CCS
+[ 4844.195456] sd 7:0:0:0: Attached scsi generic sg1 type 0
+[ 4844.806512] sd 7:0:0:0: [sdb] 3921920 512-byte logical blocks: (2.00 GB/1.87 GiB)
+[ 4844.806680] sd 7:0:0:0: [sdb] Write Protect is off
+[ 4844.806682] sd 7:0:0:0: [sdb] Mode Sense: 23 00 00 00
+[ 4844.806858] sd 7:0:0:0: [sdb] No Caching mode page found
+[ 4844.806860] sd 7:0:0:0: [sdb] Assuming drive cache: write through
+[ 4844.809350] sd 7:0:0:0: [sdb] No Caching mode page found
+[ 4844.809352] sd 7:0:0:0: [sdb] Assuming drive cache: write through
+[ 4844.851804]  sdb: sdb1
+[ 4844.852735] sd 7:0:0:0: [sdb] No Caching mode page found
+[ 4844.852737] sd 7:0:0:0: [sdb] Assuming drive cache: write through
+[ 4844.852739] sd 7:0:0:0: [sdb] Attached SCSI removable disk
+[ 4877.751707] smpboot: CPU 1 is now offline
+[ 4877.754996] kvm: disabled by bios
+[ 4877.871763] smpboot: CPU 2 is now offline
+[ 4877.876156] kvm: disabled by bios
+[ 4877.900070] Broke affinity for irq 43
+[ 4877.901113] smpboot: CPU 3 is now offline
+[ 4877.909390] kvm: disabled by bios
+[ 4878.349409] vmlaunch_simple: module verification failed: signature and/or  required key missing - tainting kernel
+[ 4878.350559] <1> In vmxon
+[ 4878.350561] <1> VMX supported CPU.
+[ 4878.350562] MSR 0x3A:Lock bit is on.VMXONbit is off.Cannot do vmxon
+[ 4878.350574] BUG: unable to handle kernel NULL pointer dereference at           (null)
+[ 4878.350600] IP: [<          (null)>]           (null)
+[ 4878.350614] PGD 0 
+[ 4878.350621] Oops: 0010 [#1] SMP 
+[ 4878.350631] Modules linked in: vmlaunch_simple(OF+) msr nls_iso8859_1 usb_storage bnep rfcomm uvcvideo videobuf2_vmalloc videobuf2_memops videobuf2_core arc4 videodev iwlmvm x86_pkg_temp_thermal intel_powerclamp joydev mac80211 coretemp snd_hda_codec_hdmi snd_hda_codec_realtek snd_hda_intel kvm iwlwifi thinkpad_acpi crct10dif_pclmul crc32_pclmul ghash_clmulni_intel aesni_intel aes_x86_64 lrw gf128mul glue_helper mei_me nvram snd_seq_midi snd_seq_midi_event mei snd_hda_codec snd_rawmidi snd_seq snd_hwdep snd_pcm snd_seq_device snd_page_alloc rtsx_pci_ms psmouse ablk_helper cfg80211 serio_raw btusb cryptd memstick bluetooth parport_pc lpc_ich ppdev snd_timer snd soundcore mac_hid lp parport rtsx_pci_sdmmc ahci i915 libahci rtsx_pci e1000e ptp i2c_algo_bit pps_core drm_kms_helper drm wmi video
+[ 4878.350856] CPU: 0 PID: 4479 Comm: insmod Tainted: GF          O 3.13.0-24-generic #46-Ubuntu
+[ 4878.350877] Hardware name: LENOVO 20BFS0SF01/20BFS0SF01, BIOS GMET66WW (2.14 ) 07/01/2014
+[ 4878.350898] task: ffff880212d417f0 ti: ffff88020df52000 task.ti: ffff88020df52000
+[ 4878.350917] RIP: 0010:[<0000000000000000>]  [<          (null)>]           (null)
+[ 4878.350936] RSP: 0018:ffff88020df53d30  EFLAGS: 00010282
+[ 4878.350950] RAX: 0000000000000000 RBX: 0000000000000006 RCX: 0000000000000006
+[ 4878.350968] RDX: 0000000000000007 RSI: 00000000a828a826 RDI: 0000000000000246
+[ 4878.350986] RBP: 0000000000000000 R08: 0000000000000082 R09: 0000000000000487
+[ 4878.351003] R10: 0000000000000000 R11: ffff88020df53a1e R12: 0000000000000000
+[ 4878.351021] R13: 8000000000000000 R14: 0000000000000001 R15: ffffffffa05ed020
+[ 4878.351039] FS:  00007f7e75e5f740(0000) GS:ffff88021e200000(0000) knlGS:0000000000000000
+[ 4878.351060] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[ 4878.351075] CR2: 0000000000000000 CR3: 000000020d35d000 CR4: 00000000001407f0
+[ 4878.351093] Stack:
+[ 4878.351098]  ffffffffa05ea180 ffffffffa05ed070 ffff88020df53db8 ffffffff8100214a
+[ 4878.351119]  0000000000000000 ffffffffa05ed070 0000000000000001 ffffffffa05ed020
+[ 4878.351139]  ffff88020df53d90 ffffffff810598d3 0000000000000000 ffffffffa0021000
+[ 4878.351157] Call Trace:
+[ 4878.351167]  [<ffffffffa05ea180>] ? vmxoff_finish+0x25/0x25 [vmlaunch_simple]
+[ 4878.351188]  [<ffffffff8100214a>] ? do_one_initcall+0xfa/0x1b0
+[ 4878.351203]  [<ffffffff810598d3>] ? set_memory_nx+0x43/0x50
+[ 4878.351219]  [<ffffffff810e1d4d>] ? load_module+0x12dd/0x1b40
+[ 4878.351236]  [<ffffffff810dd7d0>] ? store_uevent+0x40/0x40
+[ 4878.351251]  [<ffffffff810e2726>] ? SyS_finit_module+0x86/0xb0
+[ 4878.351269]  [<ffffffff8172663f>] ? tracesys+0xe1/0xe6
+[ 4878.351282] Code:  Bad RIP value.
+[ 4878.351293] RIP  [<          (null)>]           (null)
+[ 4878.351305]  RSP <ffff88020df53d30>
+[ 4878.351313] CR2: 0000000000000000
+[ 4878.357902] ---[ end trace 1760c6a2e02543ee ]---
