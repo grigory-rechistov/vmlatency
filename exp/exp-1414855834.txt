@@ -1,0 +1,151 @@
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 69
+model name	: Intel(R) Core(TM) i5-4258U CPU @ 2.40GHz
+stepping	: 1
+microcode	: 0x17
+cpu MHz		: 2400.000
+cache size	: 3072 KB
+physical id	: 0
+siblings	: 1
+core id		: 0
+cpu cores	: 1
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid
+bogomips	: 4799.87
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+Distributor ID:	Ubuntu
+Description:	Ubuntu 14.04 LTS
+Release:	14.04
+Codename:	trusty
+Dmesg output
+[  463.018839] ata1: exception Emask 0x10 SAct 0x0 SErr 0x10000 action 0xe frozen
+[  463.018843] ata1: irq_stat 0x00400000, PHY RDY changed
+[  463.018845] ata1: SError: { PHYRdyChg }
+[  463.018849] ata1: hard resetting link
+[  463.081579] smpboot: CPU 2 is now offline
+[  463.121656] Broke affinity for irq 59
+[  463.121658] Broke affinity for irq 60
+[  463.121660] Broke affinity for irq 61
+[  463.121662] Broke affinity for irq 62
+[  463.121664] Broke affinity for irq 63
+[  463.121666] Broke affinity for irq 64
+[  463.122683] kvm: disabling virtualization on CPU3
+[  463.225696] smpboot: CPU 3 is now offline
+[  463.742174] ata1: SATA link up 1.5 Gbps (SStatus 113 SControl 310)
+[  463.742541] ata1.00: unexpected _GTF length (8)
+[  463.743088] ata1.00: unexpected _GTF length (8)
+[  463.743168] ata1.00: configured for UDMA/33
+[  463.743245] ata1: EH complete
+[  463.843333] ata1: exception Emask 0x10 SAct 0x0 SErr 0x10000 action 0xe frozen
+[  463.843337] ata1: irq_stat 0x00400000, PHY RDY changed
+[  463.843339] ata1: SError: { PHYRdyChg }
+[  463.843343] ata1: hard resetting link
+[  464.566795] ata1: SATA link up 1.5 Gbps (SStatus 113 SControl 310)
+[  464.567237] ata1.00: unexpected _GTF length (8)
+[  464.567771] ata1.00: unexpected _GTF length (8)
+[  464.567849] ata1.00: configured for UDMA/33
+[  464.567927] ata1: EH complete
+[  464.668016] ata1: exception Emask 0x10 SAct 0x0 SErr 0x10000 action 0xe frozen
+[  464.668019] ata1: irq_stat 0x00400000, PHY RDY changed
+[  464.668021] ata1: SError: { PHYRdyChg }
+[  464.668025] ata1: hard resetting link
+[  465.391407] ata1: SATA link up 1.5 Gbps (SStatus 113 SControl 310)
+[  465.391777] ata1.00: unexpected _GTF length (8)
+[  465.392316] ata1.00: unexpected _GTF length (8)
+[  465.392393] ata1.00: configured for UDMA/33
+[  465.392470] ata1: EH complete
+[  465.492557] ata1: exception Emask 0x10 SAct 0x0 SErr 0x10000 action 0xe frozen
+[  465.492561] ata1: irq_stat 0x00400000, PHY RDY changed
+[  465.492563] ata1: SError: { PHYRdyChg }
+[  465.492566] ata1: hard resetting link
+[  466.216051] ata1: SATA link up 1.5 Gbps (SStatus 113 SControl 310)
+[  466.216419] ata1.00: unexpected _GTF length (8)
+[  466.216963] ata1.00: unexpected _GTF length (8)
+[  466.217049] ata1.00: configured for UDMA/33
+[  466.217159] ata1: EH complete
+[  466.317189] ata1: exception Emask 0x10 SAct 0x0 SErr 0x10000 action 0xe frozen
+[  466.317193] ata1: irq_stat 0x00400000, PHY RDY changed
+[  466.317195] ata1: SError: { PHYRdyChg }
+[  466.317198] ata1: hard resetting link
+[  466.625775] vmlaunch_simple: module verification failed: signature and/or  required key missing - tainting kernel
+[  466.629721] <1> In vmxon
+[  466.629724] <1> VMX supported CPU.
+[  466.629725] MSR 0x3A:Lock bit is on.VMXON bit is on.OK
+[  466.629727] <1> turned on cr4.vmxe
+[  466.629733] <1> Performing initial VMLAUNCH
+[  466.629735] <1> Going to do max 33000 iterations VMRESUME/VMEXIT
+[  466.629736] # iter    cycles
+[  466.629738]     1       580 cycles
+[  466.629739]     2      1120 cycles
+[  466.629741]     4      2244 cycles
+[  466.629744]     8      4428 cycles
+[  466.629749]    16      8800 cycles
+[  466.629757]    32     17748 cycles
+[  466.629773]    64     35212 cycles
+[  466.629804]   128     70604 cycles
+[  466.629864]   256    140984 cycles
+[  466.629983]   512    282500 cycles
+[  466.630219]  1024    563272 cycles
+[  466.630691]  2048   1127068 cycles
+[  466.631628]  4096   2243320 cycles
+[  466.633917]  8192   5486900 cycles
+[  466.639022] 16384  12238868 cycles
+[  466.649230] 32768  24477724 cycles
+[  466.649231] <1> Finished vmxon
+[  466.649232] <1> Machine in vmxon: Attempting vmxoff
+[  466.649232] <1> vmxoff complete
+[  466.649233] <1> turned off cr4.vmxe
+[  466.649234] <1> freeing allocated vmcs region!
+[  466.649235] <1> freeing allocated io bitmapA region!
+[  466.649236] <1> freeing allocated io bitmapB region!
+[  466.649237] <1> freeing allocated msr bitmap region!
+[  466.649238] <1> freeing allocated virtual apic page region!
+[  466.649238] <1> freeing allocated vmxon region!
+[  466.649239] <1> Enable interrupts
+[  466.649251] <1> Interrupts enabled
+[  466.659102] BUG: unable to handle kernel paging request at 000000000000ffff
+[  466.659134] IP: [<000000000000ffff>] 0xffff
+[  466.659153] PGD 0 
+[  466.659161] Oops: 0010 [#1] SMP 
+[  466.659175] Modules linked in: vmlaunch_simple(OF+) msr dm_crypt intel_rapl x86_pkg_temp_thermal intel_powerclamp coretemp joydev kvm_intel applesmc kvm bcm5974 snd_hda_codec_cirrus snd_hda_codec_hdmi input_polldev snd_hda_intel snd_hda_codec btusb snd_hwdep snd_pcm snd_page_alloc crct10dif_pclmul crc32_pclmul snd_seq_midi ghash_clmulni_intel snd_seq_midi_event aesni_intel snd_rawmidi dm_multipath aes_x86_64 lrw snd_seq scsi_dh gf128mul snd_seq_device bnep mei_me glue_helper snd_timer ablk_helper rfcomm mei cryptd bluetooth lpc_ich snd apple_bl soundcore mac_hid parport_pc ppdev lp parport squashfs overlayfs nls_utf8 isofs nls_iso8859_1 dm_mirror dm_region_hash dm_log hid_logitech_dj hid_generic hid_apple usbhid hid i915 ahci libahci usb_storage i2c_algo_bit drm_kms_helper drm video
+[  466.659468] CPU: 0 PID: 4861 Comm: insmod Tainted: GF          O 3.13.0-24-generic #46-Ubuntu
+[  466.659498] Hardware name: Apple Inc. MacBookPro11,1/Mac-189A3D4F975D5FFC, BIOS MBP111.88Z.0138.B11.1408291433 08/29/2014
+[  466.659536] task: ffff8800883f97f0 ti: ffff880088374000 task.ti: ffff880088374000
+[  466.659562] RIP: 0010:[<000000000000ffff>]  [<000000000000ffff>] 0xffff
+[  466.659587] RSP: 0018:ffff880088375d30  EFLAGS: 00010282
+[  466.659605] RAX: 0000000000000000 RBX: 0000000000000000 RCX: 00000000000079bc
+[  466.659629] RDX: 000000000000737e RSI: 000000007380737e RDI: 0000000000000246
+[  466.659653] RBP: 0000000000000000 R08: 0000000000000082 R09: 00000000000017dd
+[  466.659678] R10: 0000000000000000 R11: ffff880088375a9e R12: 0000001000000000
+[  466.659702] R13: ffff880200000000 R14: 0000000000000001 R15: ffffffffa0373020
+[  466.659727] FS:  00007f3edaf40740(0000) GS:ffff88026f200000(0000) knlGS:0000000000000000
+[  466.659755] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[  466.659774] CR2: 000000000147adc0 CR3: 0000000064c5b000 CR4: 00000000001407f0
+[  466.659799] Stack:
+[  466.659806]  ffffffffa0370180 ffffffffa0373070 ffff880088375db8 ffffffff8100214a
+[  466.659836]  0000000000000000 ffffffffa0373070 0000000000000001 ffffffffa0373020
+[  466.659864]  ffff880088375d90 ffffffff810598d3 0000000000000000 ffffffffa0058000
+[  466.659891] Call Trace:
+[  466.659904]  [<ffffffffa0370180>] ? vmxoff_finish+0x25/0x25 [vmlaunch_simple]
+[  466.659932]  [<ffffffff8100214a>] ? do_one_initcall+0xfa/0x1b0
+[  466.659954]  [<ffffffff810598d3>] ? set_memory_nx+0x43/0x50
+[  466.659976]  [<ffffffff810e1d4d>] ? load_module+0x12dd/0x1b40
+[  466.659999]  [<ffffffff810dd7d0>] ? store_uevent+0x40/0x40
+[  466.660019]  [<ffffffff810e2726>] ? SyS_finit_module+0x86/0xb0
+[  466.660042]  [<ffffffff8172663f>] ? tracesys+0xe1/0xe6
+[  466.660060] Code:  Bad RIP value.
+[  466.660073] RIP  [<000000000000ffff>] 0xffff
+[  466.660091]  RSP <ffff880088375d30>
+[  466.660103] CR2: 000000000000ffff
+[  466.669298] ---[ end trace cc4de6d6360d6203 ]---
